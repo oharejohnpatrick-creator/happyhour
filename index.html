@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<!-- Sanitized copy: public deployment URLs, private data source IDs, form endpoints, donation links, and owner CTAs have been replaced with placeholders. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Local Happy Hours</title>
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#f97316">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="LocalHH">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://example.com/">
+<meta property="og:title" content="Local Happy Hours">
+<meta property="og:description" content="Find the best happy hour deals in the local area - food specials, drink deals, and late night offers">
+<meta property="og:image" content="https://example.com/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://example.com/">
+<meta name="twitter:title" content="Local Happy Hours">
+<meta name="twitter:description" content="Find the best happy hour deals in the local area - food specials, drink deals, and late night offers">
+<meta name="twitter:image" content="https://example.com/images/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --cream:       #FBF7F0;
+  --cream-deep:  #F4EDE1;
+  --card:        #FFFFFF;
+  --ink:         #221F1A;
+  --ink-soft:    #5C564B;
+  --ink-faint:   #8A8273;
+  --line:        #E9E1D3;
+  --amber:       #D97706;
+  --amber-deep:  #B45309;
+  --amber-soft:  #FEF3E2;
+  --amber-line:  #F5D9AE;
+  --pine:        #1E3A2F;
+  --pine-soft:   #E7F0EB;
+  --live:        #15803D;
+  --live-soft:   #EAF6EE;
+  --night:       #312E5E;
+  --night-soft:  #EEEDFA;
+  --radius: 18px;
+  --radius-sm: 12px;
+  --shadow: 0 1px 2px rgba(34,31,26,.05), 0 8px 24px -12px rgba(34,31,26,.18);
+  --shadow-lift: 0 2px 4px rgba(34,31,26,.06), 0 16px 36px -14px rgba(34,31,26,.25);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+a { color: inherit; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 clamp(20px, 3.5vw, 32px); }
+
+
+.topbar {
+  position: sticky; top: 0; z-index: 40;
+  background: rgba(251,247,240,.86);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.topbar-inner { display:flex; align-items:center; gap:16px; padding-top:14px; padding-bottom:14px; }
+.brand { display:flex; align-items:center; gap:10px; text-decoration:none; flex-shrink:0; }
+.brand-mark {
+  width:38px; height:38px; border-radius:12px;
+  background: linear-gradient(135deg, #F59E0B, #D97706);
+  display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 4px 10px -3px rgba(217,119,6,.5);
+}
+.brand-mark svg { width:21px; height:21px; }
+.brand-name { font-family: var(--font-display); font-weight:700; font-size:19px; letter-spacing:-.01em; line-height:1.1; }
+.brand-name small { display:block; font-family:var(--font-body); font-weight:600; font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--amber-deep); }
+
+
+.daystrip { display:flex; gap:6px; overflow-x:auto; scrollbar-width:none; margin-left:auto; }
+.daystrip::-webkit-scrollbar { display:none; }
+.day {
+  flex-shrink:0; padding:7px 13px; border-radius:999px;
+  font-size:13px; font-weight:600; color:var(--ink-soft);
+  border:1px solid transparent; transition:background-color .1s, color .1s, box-shadow .1s;
+}
+.day:hover { background:var(--cream-deep); }
+.day.active {
+  color:#fff; box-shadow:0 4px 12px -3px rgba(217,119,6,.55);
+  background:linear-gradient(135deg,#F59E0B 0%,#E07B2E 55%,#B45309 100%);
+}
+.day .dot { display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--amber); margin-left:5px; vertical-align:2px; }
+.day.active .dot { background:#FFF1D6; }
+
+
+.hero {
+  position:relative; overflow:hidden;
+  background:#C77A4A url('/images/hero.jpg') center / cover no-repeat;
+  border-radius: 0 0 28px 28px;
+}
+.hero-scrim { position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(90deg, rgba(12,8,28,.62) 0%, rgba(12,8,28,.3) 42%, rgba(12,8,28,0) 70%); }
+.hero-inner { position:relative; padding-top:64px; padding-bottom:96px; text-align:left; }
+.hero h1 {
+  font-family:var(--font-display); font-weight:600; letter-spacing:-.02em;
+  font-size: clamp(34px, 5.4vw, 56px); line-height:1.04; color:#FFF7EA;
+  max-width: 14ch; text-shadow:0 1px 16px rgba(20,12,40,.35);
+}
+.hero h1 em { font-style:italic; color:#FFD78A; }
+.hero p.sub { margin-top:14px; color:rgba(255,247,234,.9); font-size:16px; max-width:46ch; text-shadow:0 1px 10px rgba(20,12,40,.45); }
+.hero-stats { margin-top:26px; display:flex; gap:10px; flex-wrap:wrap; }
+.stat {
+  display:inline-flex; align-items:center; gap:8px;
+  background:rgba(255,255,255,.13); border:1px solid rgba(255,255,255,.22);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  color:#FFF7EA; border-radius:999px; padding:9px 16px; font-size:14px; font-weight:600;
+}
+.stat strong { font-size:16px; color:#FFD78A; }
+#heroJump { color:#FFF7EA; font-size:17px; font-weight:600; font-family:'Fraunces',serif; font-style:italic; }
+#heroJump strong { font-size:20px; color:#FFD78A; font-style:italic; }
+.pulse {
+  width:8px; height:8px; border-radius:50%; background:#4ADE80; position:relative; flex-shrink:0;
+}
+.pulse::after {
+  content:""; position:absolute; inset:-4px; border-radius:50%;
+  border:2px solid rgba(74,222,128,.6); animation:ping 1.8s ease-out infinite;
+}
+@keyframes ping { 0%{transform:scale(.5);opacity:1} 100%{transform:scale(1.6);opacity:0} }
+
+
+.toolbar { margin-top:-40px; position:relative; z-index:5; }
+.toolbar-card {
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  box-shadow:var(--shadow-lift); padding:14px;
+  display:flex; flex-wrap:wrap; gap:10px; align-items:center;
+}
+.seg { display:flex; background:var(--cream-deep); border-radius:999px; padding:4px; gap:2px; }
+.seg button {
+  display:inline-flex; align-items:center; gap:7px;
+  padding:8px 16px; border-radius:999px; font-size:14px; font-weight:600; color:var(--ink-soft);
+  transition:color .1s, box-shadow .1s;
+}
+.seg button svg { width:15px; height:15px; }
+.seg button.active {
+  color:#fff; box-shadow:0 4px 12px -3px rgba(217,119,6,.5);
+  background:linear-gradient(135deg,#F59E0B 0%,#E07B2E 55%,#B45309 100%);
+}
+.chip {
+  display:inline-flex; align-items:center; gap:7px;
+  padding:9px 15px; border-radius:999px; font-size:14px; font-weight:600;
+  border:1px solid var(--line); color:var(--ink-soft); background:var(--card);
+  transition:background-color .1s, color .1s, border-color .1s;
+}
+.chip svg { width:15px; height:15px; }
+.chip:hover { border-color:var(--ink-faint); }
+.chip.on-live { background:var(--live-soft); border-color:#BBDFC6; color:var(--live); }
+.chip.on-night {
+  color:#EDEBFF; border-color:#2A2750;
+  background-color:#1B1840;
+  background-image:
+    radial-gradient(circle at 18% 32%, rgba(255,255,255,.95) .7px, transparent 1.2px),
+    radial-gradient(circle at 62% 24%, rgba(255,255,255,.75) .7px, transparent 1.2px),
+    radial-gradient(circle at 82% 58%, rgba(255,255,255,.85) .7px, transparent 1.2px),
+    radial-gradient(circle at 38% 70%, rgba(255,255,255,.65) .6px, transparent 1.1px),
+    radial-gradient(circle at 90% 38%, rgba(255,255,255,.8) .6px, transparent 1.1px),
+    radial-gradient(circle at 28% 52%, rgba(255,255,255,.6) .6px, transparent 1.1px),
+    linear-gradient(135deg,#3A3672 0%,#1B1840 100%);
+}
+.toolbar-right { margin-left:auto; display:flex; gap:10px; align-items:center; }
+.select-chip {
+  display:inline-flex; align-items:center; gap:7px;
+  padding:9px 15px; border-radius:999px; font-size:14px; font-weight:600;
+  border:1px solid var(--line); color:var(--ink-soft); background:var(--card);
+}
+.select-chip svg { width:14px; height:14px; opacity:.6; }
+.select-chip .chev { transition:transform .18s; }
+.select-wrap.open .select-chip .chev { transform:rotate(180deg); }
+.select-wrap.open .select-chip { border-color:var(--ink-faint); }
+.select-wrap { position:relative; }
+.select-menu {
+  position:absolute; top:calc(100% + 7px); right:0; z-index:30;
+  background:var(--card); border:1px solid var(--line); border-radius:14px;
+  box-shadow:var(--shadow-lift); padding:6px; min-width:190px;
+}
+.select-menu[hidden] { display:none; }
+.select-opt {
+  display:flex; align-items:center; gap:9px; width:100%; text-align:left;
+  padding:9px 12px; border-radius:9px; font-size:14px; font-weight:600;
+  color:var(--ink-soft); transition:background .12s;
+}
+.select-opt:hover { background:var(--cream-deep); }
+.select-opt.active { background:var(--amber-soft); color:var(--amber-deep); }
+.select-opt .tick { margin-left:auto; opacity:0; }
+.select-opt.active .tick { opacity:1; }
+
+
+.subchips { display:flex; gap:8px; flex-wrap:wrap; padding:12px 4px 0; }
+.subchip {
+  padding:7px 13px; border-radius:999px; font-size:13px; font-weight:600;
+  border:1px solid var(--line); color:var(--ink-soft); background:var(--card); transition:background-color .1s, color .1s, border-color .1s;
+}
+.subchip.active { background:var(--amber-soft); border-color:var(--amber-line); color:var(--amber-deep); }
+
+
+.section-head { display:flex; align-items:baseline; gap:12px; margin:36px 0 18px; flex-wrap:wrap; scroll-margin-top:84px; }
+.section-head h2 { font-family:var(--font-display); font-weight:600; font-size:26px; letter-spacing:-.01em; }
+.section-head .count { color:var(--ink-faint); font-size:14px; font-weight:500; }
+.section-head .sort { margin-left:auto; font-size:13px; color:var(--ink-faint); }
+.section-head .sort b { color:var(--ink-soft); }
+
+
+.spotlight {
+  display:flex; align-items:center; gap:18px; flex-wrap:wrap;
+  background: linear-gradient(110deg, var(--amber-soft), #FFF9EE 60%);
+  border:1px solid var(--amber-line); border-radius:var(--radius);
+  padding:18px 22px; margin-bottom:28px;
+}
+.spotlight .tag {
+  font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--amber-deep); display:flex; align-items:center; gap:6px;
+}
+.spotlight .tag svg { width:14px; height:14px; }
+.spotlight h3 { font-family:var(--font-display); font-size:21px; font-weight:600; }
+.spotlight .meta { color:var(--ink-faint); font-size:13.5px; }
+.spotlight .cta {
+  margin-left:auto; flex-shrink:0;
+  background:linear-gradient(135deg,#F59E0B 0%,#E07B2E 55%,#B45309 100%);
+  color:#fff; border-radius:999px; padding:10px 18px;
+  font-size:13.5px; font-weight:600; transition:transform .15s;
+  box-shadow:0 4px 12px -4px rgba(217,119,6,.55);
+}
+.spotlight .cta:hover { transform:translateY(-1px); }
+
+
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); gap:18px; }
+#gridStatus { text-align:center; padding:48px 0; color:var(--ink-faint); font-size:15px; }
+.card {
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  box-shadow:var(--shadow); overflow:hidden; position:relative;
+  transition:transform .18s, box-shadow .18s;
+  display:flex; flex-direction:column;
+}
+.card:hover { transform:translateY(-3px); box-shadow:var(--shadow-lift); }
+
+
+body.night-on .card:not(.promo) {
+  color:#EDEBFF; border-color:#2A2750;
+  background-color:#191640;
+  background-image:
+    radial-gradient(1.3px 1.3px at 24px 28px, rgba(255,255,255,.95), transparent),
+    radial-gradient(1px 1px at 72px 84px, rgba(255,255,255,.7), transparent),
+    radial-gradient(1.5px 1.5px at 128px 44px, rgba(255,255,255,.9), transparent),
+    radial-gradient(1px 1px at 168px 104px, rgba(255,255,255,.6), transparent),
+    radial-gradient(1.2px 1.2px at 200px 60px, rgba(255,255,255,.8), transparent),
+    linear-gradient(165deg,#3D3878 0%,#211C52 55%,#141135 100%);
+  background-repeat:repeat,repeat,repeat,repeat,repeat,no-repeat;
+  background-size:230px 150px,230px 150px,230px 150px,230px 150px,230px 150px,100% 100%;
+  animation:nightFade .35s ease-out;
+}
+@keyframes nightFade { from { opacity:.4; } to { opacity:1; } }
+body.night-on .card:not(.promo) .venue-name { color:#fff; }
+body.night-on .card:not(.promo) .venue-meta { color:#B9B4E6; }
+body.night-on .card:not(.promo) .deal-text { color:#EDEBFF; }
+body.night-on .card:not(.promo) .deal-text .price { color:#FFD78A; }
+body.night-on .card:not(.promo) .deal-note,
+body.night-on .card:not(.promo) .deal-time { color:#A9A4D6; }
+body.night-on .card:not(.promo) .deal + .deal { border-top-color:rgba(255,255,255,.14); }
+body.night-on .card:not(.promo) .mini-tag { background:rgba(255,255,255,.13); color:#DAD6F6; }
+body.night-on .card:not(.promo) .mini-tag.night { background:rgba(255,255,255,.18); color:#fff; }
+body.night-on .card:not(.promo) .deal-icon.food,
+body.night-on .card:not(.promo) .deal-icon.drink { background:rgba(255,255,255,.13); color:#FFD78A; }
+body.night-on .card:not(.promo) .status-chip.night { background:rgba(255,255,255,.16); color:#EDEBFF; }
+body.night-on .card:not(.promo) .hours { color:#B9B4E6; }
+body.night-on .card:not(.promo) .timebar { background:rgba(255,255,255,.14); }
+body.night-on .card:not(.promo) .btn-ghost { border-color:rgba(255,255,255,.24); color:#DAD6F6; }
+body.night-on .card:not(.promo) .btn-ghost:hover { border-color:rgba(255,255,255,.55); color:#fff; }
+.card.featured { border-color:var(--amber-line); }
+.card.featured::before {
+  content:""; position:absolute; top:0; left:0; right:0; height:3px;
+  background:linear-gradient(90deg,#F59E0B,#D97706);
+}
+
+.card.taco { border-color:transparent; }
+.card.taco::after {
+  content:""; position:absolute; inset:0; border-radius:var(--radius); padding:2px;
+  background:linear-gradient(135deg,#F59E0B,#E07B2E 55%,#B45309);
+  -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor; mask-composite:exclude;
+  pointer-events:none;
+}
+.card.taco.featured::before { display:none; }
+.card-head { padding:18px 18px 0; }
+.card-top { display:flex; align-items:flex-start; gap:10px; }
+.venue-name { font-family:var(--font-display); font-weight:600; font-size:20px; letter-spacing:-.01em; line-height:1.2; }
+.venue-meta { display:flex; align-items:center; gap:5px; color:var(--ink-faint); font-size:13px; margin-top:3px; }
+.venue-meta svg { width:13px; height:13px; flex-shrink:0; }
+.badges { margin-left:auto; flex-shrink:0; display:flex; flex-direction:column; align-items:flex-end; gap:6px; }
+.badge-featured {
+  flex-shrink:0;
+  display:inline-flex; align-items:center; gap:5px;
+  background:var(--amber-soft); border:1px solid var(--amber-line); color:var(--amber-deep);
+  font-size:11px; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  border-radius:999px; padding:4px 10px;
+}
+.badge-featured svg { width:11px; height:11px; }
+.badge-taco {
+  flex-shrink:0; display:inline-flex; align-items:center; gap:5px;
+  background:linear-gradient(135deg,#F59E0B,#B45309); color:#fff;
+  font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase;
+  border-radius:999px; padding:4px 10px; box-shadow:0 3px 8px -3px rgba(180,83,9,.55);
+}
+
+
+.status { display:flex; align-items:center; gap:10px; margin:12px 0 0; flex-wrap:wrap; }
+.status-chip {
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:12.5px; font-weight:700; border-radius:999px; padding:4px 11px;
+}
+.status-chip.live { background:var(--live-soft); color:var(--live); }
+.status-chip.soon { background:var(--amber-soft); color:var(--amber-deep); }
+.status-chip.later { background:var(--cream-deep); color:var(--ink-soft); }
+.status-chip.night { background:var(--night-soft); color:var(--night); }
+.status .hours { font-size:13px; color:var(--ink-faint); font-weight:500; margin-left:auto; text-align:right; }
+.status.no-chip .hours { margin-left:0; text-align:left; }
+.timebar { height:4px; border-radius:999px; background:var(--cream-deep); margin-top:10px; overflow:hidden; }
+.timebar i { display:block; height:100%; border-radius:999px; background:linear-gradient(90deg,#34D399,#15803D); }
+
+.card-body { padding:14px 18px 18px; flex:1; display:flex; flex-direction:column; }
+.deal { display:flex; gap:11px; padding:9px 0; }
+.deal + .deal { border-top:1px dashed var(--line); }
+.deal-icon {
+  flex-shrink:0; width:30px; height:30px; border-radius:9px;
+  display:flex; align-items:center; justify-content:center; margin-top:1px;
+}
+.deal-icon svg { width:16px; height:16px; }
+.deal-icon.food  { background:var(--pine-soft); color:var(--pine); }
+.deal-icon.drink { background:var(--amber-soft); color:var(--amber-deep); }
+.deal-text { font-size:14.5px; color:var(--ink); line-height:1.45; }
+.deal-text .price { font-weight:700; color:var(--amber-deep); }
+.deal-note { font-size:12px; color:var(--ink-faint); margin-top:2px; }
+.deal-meta { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:6px; }
+.deal-time { font-size:11.5px; font-weight:700; color:var(--ink-faint); }
+.deal-tags { display:flex; gap:6px; margin-top:6px; flex-wrap:wrap; }
+.mini-tag {
+  font-size:11px; font-weight:600; border-radius:6px; padding:2px 8px;
+  background:var(--cream-deep); color:var(--ink-soft);
+}
+.mini-tag.taco { background:var(--amber-soft); color:var(--amber-deep); }
+.mini-tag.night { background:var(--night-soft); color:var(--night); }
+
+.card-actions { display:flex; gap:8px; margin-top:auto; padding-top:14px; }
+.btn-ghost {
+  flex:1; display:inline-flex; align-items:center; justify-content:center; gap:7px;
+  border:1px solid var(--line); border-radius:var(--radius-sm);
+  padding:9px 0; font-size:13.5px; font-weight:600; color:var(--ink-soft);
+  text-decoration:none; transition:all .15s;
+}
+.btn-ghost:hover { border-color:var(--ink-faint); color:var(--ink); }
+.btn-ghost svg { width:14px; height:14px; }
+
+
+.card.promo {
+  background:linear-gradient(135deg,#2D1C63 0%,#1A4A8A 50%,#0CA3DC 100%);
+  border-color:transparent; color:#F1F7FF;
+  justify-content:center; text-align:center; padding:34px 26px; gap:12px;
+}
+.card.promo h3 { font-family:var(--font-display); font-size:22px; font-weight:600; color:#fff; }
+.card.promo p { font-size:14px; color:rgba(241,247,255,.9); }
+.card.promo .promo-cta {
+  margin:6px auto 0; display:inline-block; background:#fff; color:#1A4A8A;
+  border-radius:999px; padding:10px 20px; font-size:13.5px; font-weight:700; text-decoration:none;
+  box-shadow:0 6px 16px -6px rgba(0,0,0,.3);
+}
+
+.card.promo.coffee { background:linear-gradient(135deg,#F59E0B 0%,#E07B2E 55%,#C2410C 100%); color:#FFF6EC; }
+.card.promo.coffee p { color:rgba(255,246,236,.9); }
+.card.promo.coffee .promo-cta { color:#B45309; }
+
+
+.foot {
+  margin:56px 0 0; padding:44px 0 60px; text-align:center;
+  border-top:1px solid var(--line);
+}
+.foot h3 { font-family:var(--font-display); font-size:24px; font-weight:600; }
+.foot p { color:var(--ink-faint); font-size:14.5px; margin:6px 0 18px; }
+.btn-primary {
+  display:inline-flex; align-items:center; gap:8px;
+  background:linear-gradient(135deg,#F59E0B 0%,#E07B2E 55%,#B45309 100%);
+  color:#fff; border-radius:999px; padding:13px 26px;
+  font-size:15px; font-weight:600;
+  box-shadow:0 8px 22px -8px rgba(217,119,6,.6); transition:transform .15s;
+}
+.btn-primary:hover { transform:translateY(-2px); }
+.foot .fine { font-size:12.5px; color:var(--ink-faint); margin-top:26px; }
+
+
+.to-top {
+  position:fixed; right:22px; bottom:22px; z-index:45;
+  width:46px; height:46px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center; color:#fff;
+  background:rgba(34,31,26,.42);
+  backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.28); box-shadow:var(--shadow-lift);
+  opacity:0; visibility:hidden; transform:translateY(10px);
+  transition:opacity .2s, transform .2s, visibility .2s, background .15s;
+}
+.to-top.show { opacity:1; visibility:visible; transform:none; }
+.to-top:hover { background:rgba(34,31,26,.62); }
+.to-top svg { width:20px; height:20px; }
+
+
+.modal-overlay {
+  position:fixed; inset:0; z-index:60; display:flex; align-items:center; justify-content:center;
+  padding:20px; background:rgba(34,31,26,.5);
+  backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
+  animation:overlayIn .2s ease-out;
+}
+.modal-overlay[hidden] { display:none; }
+@keyframes overlayIn { from { opacity:0; } to { opacity:1; } }
+@keyframes cardIn { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+.modal-card {
+  position:relative; background:var(--card); border:1px solid var(--line);
+  border-radius:22px; box-shadow:var(--shadow-lift);
+  width:100%; max-width:520px; padding:32px; max-height:90vh; overflow-y:auto;
+  animation:cardIn .22s ease-out;
+}
+.modal-close {
+  position:absolute; top:16px; right:16px; width:34px; height:34px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--cream-deep); color:var(--ink-soft); font-size:15px; transition:background .15s;
+}
+.modal-close:hover { background:var(--line); color:var(--ink); }
+.modal-card h2 { font-family:var(--font-display); font-size:24px; font-weight:600; letter-spacing:-.01em; }
+.modal-sub { color:var(--ink-faint); font-size:14.5px; margin:6px 0 18px; }
+.modal-card label { display:block; font-size:13px; font-weight:600; color:var(--ink-soft); margin:14px 0 5px; }
+.modal-card input, .modal-card textarea {
+  width:100%; font-family:inherit; font-size:15px; color:var(--ink);
+  background:var(--cream); border:1px solid var(--line); border-radius:12px;
+  padding:11px 14px; transition:border-color .15s, box-shadow .15s; resize:vertical;
+}
+.modal-card input:focus, .modal-card textarea:focus {
+  outline:none; border-color:var(--amber); box-shadow:0 0 0 3px var(--amber-soft);
+}
+.modal-error { color:#B91C1C; font-size:13.5px; margin-top:12px; font-weight:500; }
+.modal-submit { width:100%; justify-content:center; margin-top:18px; }
+.modal-submit:disabled { opacity:.6; cursor:not-allowed; transform:none; }
+.modal-success { text-align:center; padding:8px 0 4px; }
+.success-check {
+  width:60px; height:60px; border-radius:50%; background:var(--live-soft); color:var(--live);
+  display:flex; align-items:center; justify-content:center; margin:4px auto 16px;
+}
+.success-check svg { width:30px; height:30px; }
+
+@media (max-width: 640px) {
+  .hero { background-position: right center; }
+  .hero-inner { padding-top:48px; padding-bottom:84px; }
+  .toolbar-right { margin-left:0; }
+  .select-menu { right:auto; left:0; }
+  .spotlight .cta { margin-left:0; }
+  .modal-card { padding:24px; }
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/>
+          <path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/>
+          <path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/>
+        </svg>
+      </span>
+      <span class="brand-name">Local<small>Happy Hours</small></span>
+    </a>
+    <nav class="daystrip" aria-label="Day of week">
+      <button class="day" data-day="Sunday">Sun</button>
+      <button class="day" data-day="Monday">Mon</button>
+      <button class="day" data-day="Tuesday">Tue</button>
+      <button class="day" data-day="Wednesday">Wed</button>
+      <button class="day" data-day="Thursday">Thu</button>
+      <button class="day" data-day="Friday">Fri</button>
+      <button class="day" data-day="Saturday">Sat</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-scrim"></div>
+  <div class="wrap hero-inner">
+    <h1>Golden hour starts <em>early</em> here.</h1>
+    <p class="sub">Every happy hour in the local area — food and drink specials, updated daily, sorted by what's pouring right now.</p>
+    <div class="hero-stats">
+      <div id="heroJump"><strong>…</strong> deals today</div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap toolbar">
+  <div class="toolbar-card">
+    <div class="seg" role="tablist" aria-label="Deal type">
+      <button class="active" data-seg="all">All</button>
+      <button data-seg="food">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+        Food
+      </button>
+      <button data-seg="drinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/></svg>
+        Drinks
+      </button>
+    </div>
+    <button class="chip" data-toggle="live">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      Open now
+    </button>
+    <button class="chip" data-toggle="night">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      Late night
+    </button>
+    <div class="toolbar-right">
+      <div class="select-wrap" id="cityWrap">
+        <button class="select-chip" id="cityBtn" aria-haspopup="true" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg>
+          <span id="cityLabel">All cities</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="select-menu" id="cityMenu" role="menu" hidden></div>
+      </div>
+      <div class="select-wrap" id="hoodWrap" hidden>
+        <button class="select-chip" id="hoodBtn" aria-haspopup="true" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span id="hoodLabel">All areas</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="select-menu" id="hoodMenu" role="menu" hidden>
+          <button class="select-opt active" role="menuitem" data-hood="all">All areas<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Downtown">Downtown<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Old North End">Old North End<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Westside">Westside<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Broadmoor">Broadmoor<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Manitou Springs">Manitou Springs<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="North End">North End<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Southeast">Southeast<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Northwest">Northwest<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          <button class="select-opt" role="menuitem" data-hood="Briargate">Briargate<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="subchips" id="subchips" style="display:none">
+    <button class="subchip active" data-drink="all">All drinks</button>
+    <button class="subchip" data-drink="beer">Beer</button>
+    <button class="subchip" data-drink="wine">Wine</button>
+    <button class="subchip" data-drink="cocktail">Cocktails</button>
+    <button class="subchip" data-drink="margarita">Margaritas</button>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <div class="section-head" id="deals">
+    <h2 id="dealsTitle">Today's deals</h2>
+    <span class="count" id="dealsCount"></span>
+  </div>
+
+  <div id="spotlightSlot"></div>
+
+  <div id="gridStatus">Loading deals…</div>
+  <div class="grid" id="grid"></div>
+
+  <div class="foot">
+    <h3>Know a happy hour we're missing?</h3>
+    <p>Tips from locals keep this list fresh. Takes 30 seconds.</p>
+    <button class="btn-primary" id="submitBtn">
+      <svg style="width:16px;height:16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+      Submit a happy hour
+    </button>
+    <p class="fine">Free · Community-supported</p>
+  </div>
+
+
+</main>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 14 12 8 18 14"/></svg>
+</button>
+
+<div class="modal-overlay" id="submitModal" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="submitTitle">
+    <button class="modal-close" id="submitClose" aria-label="Close">✕</button>
+
+    <div id="submitFormWrap">
+      <h2 id="submitTitle">Submit a Happy Hour</h2>
+      <p class="modal-sub">Know a deal we're missing? Send it our way — locals keep this list fresh.</p>
+      <form id="submitForm" novalidate>
+        <label for="hh-name">Name</label>
+        <input type="text" id="hh-name" name="name" placeholder="Your name" autocomplete="name" />
+        <label for="hh-email">Email *</label>
+        <input type="email" id="hh-email" name="email" required placeholder="you@email.com" autocomplete="email" />
+        <label for="hh-msg">Message *</label>
+        <textarea id="hh-msg" name="message" required rows="4" placeholder="Venue, days, times &amp; the deal — e.g. Mountain Sun, daily 3–6pm, $4 pints"></textarea>
+        <p class="modal-error" id="submitError" hidden>Something went wrong. Please try again.</p>
+        <button type="submit" class="btn-primary modal-submit" id="submitSend">Send it in</button>
+      </form>
+    </div>
+
+    <div class="modal-success" id="submitSuccess" hidden>
+      <div class="success-check">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+      <h2>Got it! 🍻</h2>
+      <p class="modal-sub" style="margin-bottom:20px">Thanks for the tip — we'll review it shortly.</p>
+      <button class="btn-primary modal-submit" id="submitDone" style="margin-top:0">Close</button>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+import { parseCSV } from './js/csvParser.js';
+import { filterDeals, groupByVenue, sortVenueDeals, sortVenues, getNeighborhood, isOpenNow } from './js/filters.js';
+import { getFeatureTier } from './js/features.js';
+
+const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const todayName = DAYS[new Date().getDay()];
+
+const state = {
+  deals: [],
+  selectedDay: todayName,
+  dealType: 'all',       // 'all' | 'Food' | 'Drink'
+  drinkFilter: 'all',    // 'all' | 'beer' | 'wine' | 'cocktail' | 'margarita'
+  openNow: false,
+  lateNightOnly: false,
+  city: 'all',           // 'all' or a city name from the data (e.g. 'Local City')
+  neighborhood: 'all'    // canonical: 'Downtown','The Hill','NoBo','SoBo','Central','LoBo'
+};
+
+const nowMinutes = () => { const d = new Date(); return d.getHours() * 60 + d.getMinutes(); };
+function parseClock(token) {
+  if (!token) return null;
+  const m = token.match(/(\d+)(?::(\d+))?\s*(am|pm)?/i);
+  if (!m) return null;
+  let h = parseInt(m[1]); const min = m[2] ? parseInt(m[2]) : 0;
+  const p = m[3] ? m[3].toLowerCase() : 'pm';
+  if (p === 'pm' && h !== 12) h += 12; else if (p === 'am' && h === 12) h = 0;
+  return h * 60 + min;
+}
+function parseWindow(timeStr) {
+  if (!timeStr) return null;
+  const parts = timeStr.split(/[-–—]/);
+  const start = parseClock(parts[0]);
+  const endRaw = parts[1] || '';
+  const closes = /close/i.test(endRaw);
+  return { start, end: closes ? null : parseClock(endRaw), closes };
+}
+function fmtTime(min) {
+  if (min == null) return '';
+  let h = Math.floor(min / 60); const m = min % 60;
+  const ap = h >= 12 ? 'PM' : 'AM'; let hh = h % 12; if (hh === 0) hh = 12;
+  return m ? `${hh}:${String(m).padStart(2,'0')} ${ap}` : `${hh}:00 ${ap}`;
+}
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+}
+function highlight(desc) {
+  return esc(desc).replace(
+    /(\$\d+(?:\.\d{1,2})?|\d+%|½|\b1\/2\b|\bBOGO\b)/gi,
+    '<span class="price">$1</span>'
+  );
+}
+
+function venueStatus(group) {
+  const isToday = state.selectedDay === todayName;
+  const primary = group.deals[0].time;
+  if (isToday) {
+    const now = nowMinutes();
+    for (const d of group.deals) {
+      if (isOpenNow(d.time, now)) {
+        const w = parseWindow(d.time);
+        const label = (w && w.end != null) ? `Live · ends at ${fmtTime(w.end)}` : 'Live now';
+        let pct = 8;
+        if (w && w.end != null && w.end > w.start) pct = Math.round((now - w.start) / (w.end - w.start) * 100);
+        return { cls: 'live', label, live: true, pct: Math.max(4, Math.min(100, pct)), window: d.time };
+      }
+    }
+    let next = null;
+    for (const d of group.deals) {
+      const w = parseWindow(d.time);
+      if (w && w.start != null && w.start > now && (!next || w.start < next.start)) next = { start: w.start, time: d.time };
+    }
+    if (next) {
+      const mins = next.start - now;
+      const label = mins <= 90 ? `Starts in ${mins} min` : `Starts at ${fmtTime(next.start)}`;
+      return { cls: 'soon', label, pct: 0, window: next.time };
+    }
+  }
+  if (group.deals.some(d => d.latenight)) return { cls: 'night', label: 'Late night', night: true, pct: 0, window: primary };
+  if (isToday) return { cls: 'later', label: 'Ended', pct: 0, window: primary };
+  return { cls: 'later', label: '', pct: 0, window: primary };
+}
+
+const SVG = {
+  pin:  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>',
+  food: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>',
+  drink:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>',
+  moon: '<svg style="width:12px;height:12px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>',
+  star: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2-6.3-4.5-6.3 4.5L8 13.8 2 9.2h7.6z"/></svg>',
+  flame:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>',
+  menu: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>'
+};
+
+const promoHTML = `<article class="card promo">
+  <h3>Looking for things to do?</h3>
+  <p>Discover live music, entertainment &amp; events across the local area!</p>
+  <a class="promo-cta" href="#" target="_blank" rel="noopener noreferrer">Events Calendar →</a>
+</article>`;
+
+const coffeeHTML = `<article class="card promo coffee">
+  <h3>Support the project</h3>
+  <p>Free and community-supported.</p>
+  <a class="promo-cta" href="#" target="_blank" rel="noopener noreferrer">Learn more</a>
+</article>`;
+
+function dealHTML(d, topWindow) {
+  const isFood = d.deal_type === 'Food';
+  const tags = [];
+  if (d.taco_tuesday && (d.day === 'Tuesday' || state.selectedDay === 'Tuesday')) tags.push('<span class="mini-tag taco">Taco Tuesday</span>');
+  if (d.latenight) tags.push('<span class="mini-tag night">Late night</span>');
+  if (d.deal_type === 'Drink' && state.dealType === 'Drink' && state.drinkFilter !== 'all' && d[state.drinkFilter]) {
+    tags.push(`<span class="mini-tag">${({ beer:'Beer', wine:'Wine', cocktail:'Cocktail', margarita:'Margarita' })[state.drinkFilter]}</span>`);
+  }
+  const timeChip = (d.time && d.time !== topWindow) ? `<span class="deal-time">${esc(d.time)}</span>` : '';
+  const meta = (timeChip || tags.length) ? `<div class="deal-meta">${timeChip}${tags.join('')}</div>` : '';
+  return `<div class="deal">
+    <span class="deal-icon ${isFood ? 'food' : 'drink'}">${isFood ? SVG.food : SVG.drink}</span>
+    <div>
+      <p class="deal-text">${highlight(d.deal_description)}</p>
+      ${meta}
+    </div>
+  </div>`;
+}
+
+function cardHTML(group, idx) {
+  const tier = group.deals.map(getFeatureTier).find(t => t);
+  const featured = !!tier;
+  const tacoActive = state.selectedDay === 'Tuesday' && group.deals.some(d => d.taco_tuesday);
+  const badges = [];
+  if (tacoActive) badges.push('<span class="badge-taco">🌮 Taco Tuesday</span>');
+  if (tier === 'hot') badges.push(`<span class="badge-featured">${SVG.flame} Hot deal</span>`);
+  else if (featured) badges.push(`<span class="badge-featured">${SVG.star} Featured</span>`);
+  const badgeBlock = badges.length ? `<div class="badges">${badges.join('')}</div>` : '';
+  const hood = getNeighborhood(group.deals[0]) || group.city || '';
+  const st = venueStatus(group);
+  const chip = st.label
+    ? `<span class="status-chip ${st.cls}">${st.live ? '<span class="pulse"></span>' : ''}${st.night ? SVG.moon : ''} ${esc(st.label)}</span>`
+    : '';
+  const statusRow = (chip || st.window)
+    ? `<div class="status${chip ? '' : ' no-chip'}">${chip}<span class="hours">${esc(st.window || '')}</span></div>` : '';
+  const bar = st.live ? `<div class="timebar"><i style="width:${st.pct}%"></i></div>` : '';
+  const menuDeal = group.deals.find(d => d.url);
+  const mapsQ = encodeURIComponent(`${group.venue} ${group.city || 'Colorado Springs'}`);
+  return `<article class="card${featured ? ' featured' : ''}${tacoActive ? ' taco' : ''}" id="venue-${idx}">
+    <div class="card-head">
+      <div class="card-top">
+        <div>
+          <h3 class="venue-name">${esc(group.venue)}</h3>
+          <div class="venue-meta">${SVG.pin} ${esc(hood)}</div>
+        </div>
+        ${badgeBlock}
+      </div>
+      ${statusRow}
+      ${bar}
+    </div>
+    <div class="card-body">
+      ${group.deals.map(d => dealHTML(d, st.window)).join('')}
+      <div class="card-actions">
+        ${menuDeal ? `<a class="btn-ghost" href="${esc(menuDeal.url)}" target="_blank" rel="noopener noreferrer">${SVG.menu} Menu</a>` : ''}
+        <a class="btn-ghost" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" target="_blank" rel="noopener noreferrer">${SVG.pin} Directions</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+function spotlightHTML(group, idx, taco) {
+  const hood = getNeighborhood(group.deals[0]) || group.city || '';
+  const st = venueStatus(group);
+  const bits = [hood, st.label && st.label !== 'Ended' ? st.label : null].filter(Boolean);
+  return `<div class="spotlight${taco ? ' taco' : ''}">
+    <div>
+      <div class="tag">${taco ? '🌮 Taco Tuesday Pick' : `${SVG.star} Today's Pick`}</div>
+      <h3>${esc(group.venue)}</h3>
+      <div class="meta">${esc(bits.join(' · '))}</div>
+    </div>
+    <button class="cta" data-jump="${idx}">See their deals →</button>
+  </div>`;
+}
+
+const grid          = document.getElementById('grid');
+const gridStatus    = document.getElementById('gridStatus');
+const spotlightSlot = document.getElementById('spotlightSlot');
+const heroJump      = document.getElementById('heroJump');
+const dealsTitle    = document.getElementById('dealsTitle');
+const dealsCount    = document.getElementById('dealsCount');
+
+function render() {
+  const now = nowMinutes();
+  const filtered = filterDeals(state.deals, state.selectedDay, state.dealType, state.drinkFilter,
+    state.lateNightOnly, state.city, state.openNow, now, state.neighborhood);
+  let groups = groupByVenue(filtered);
+  sortVenueDeals(groups);
+  groups = sortVenues(groups);
+
+  const count = filtered.length;
+  const noun = count === 1 ? 'deal' : 'deals';
+
+  let qualifier = '';
+  if (state.dealType === 'Drink' && state.drinkFilter !== 'all') qualifier = state.drinkFilter + ' ';
+  else if (state.dealType === 'Drink') qualifier = 'drink ';
+  else if (state.dealType === 'Food') qualifier = 'food ';
+  else if (state.lateNightOnly) qualifier = 'late night ';
+
+  let when;
+  if (state.openNow) when = 'open now';
+  else if (state.lateNightOnly) when = state.selectedDay === todayName ? 'tonight' : state.selectedDay;
+  else when = state.selectedDay === todayName ? 'today' : state.selectedDay;
+
+  if (count === 0) {
+    const quips = [
+      'Even happy hour takes a night off.',
+      'The taps are dry. Try different filters!',
+      'Crickets. But the mountains are still open.',
+      'Nothing pouring here. Loosen those filters!',
+    ];
+    heroJump.innerHTML = quips[Math.floor(Math.random() * quips.length)];
+  } else {
+    heroJump.innerHTML = `<strong>${count}</strong> ${qualifier}${noun} ${when}!`;
+  }
+  dealsTitle.textContent = `${state.selectedDay === todayName ? "Today" : state.selectedDay}'s deals`;
+  dealsCount.textContent = `${filtered.length} ${noun} · ${groups.length} ${groups.length === 1 ? 'spot' : 'spots'}`;
+
+  if (groups.length) {
+    const seed = new Date().toDateString().split('').reduce((s, c) => s + c.charCodeAt(0), 0);
+    const tacoPool = state.selectedDay === 'Tuesday'
+      ? groups.filter(g => g.deals.some(d => d.taco_tuesday)) : [];
+    const pickFrom = tacoPool.length ? tacoPool : groups;
+    const chosen = pickFrom[seed % pickFrom.length];
+    spotlightSlot.innerHTML = spotlightHTML(chosen, groups.indexOf(chosen), tacoPool.length > 0);
+  } else {
+    spotlightSlot.innerHTML = '';
+  }
+
+  if (!groups.length) {
+    grid.innerHTML = '';
+    gridStatus.textContent = 'No deals found for this selection. Try a different day or filter.';
+    gridStatus.style.display = 'block';
+    return;
+  }
+  gridStatus.style.display = 'none';
+  const html = [];
+  let promoCount = 0;
+  groups.forEach((g, i) => {
+    html.push(cardHTML(g, i));
+    if ((i + 1) % 6 === 0) {
+      promoCount++;
+      html.push(promoCount % 2 === 1 ? promoHTML : coffeeHTML);
+    }
+  });
+  grid.innerHTML = html.join('');
+}
+
+document.querySelectorAll('.day').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.day').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.selectedDay = btn.dataset.day;
+    centerActiveDay(true);
+    render();
+  });
+});
+document.querySelectorAll('[data-seg]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-seg]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const v = btn.dataset.seg;
+    state.dealType = v === 'food' ? 'Food' : v === 'drinks' ? 'Drink' : 'all';
+    document.getElementById('subchips').style.display = v === 'drinks' ? 'flex' : 'none';
+    if (v !== 'drinks') state.drinkFilter = 'all';
+    render();
+  });
+});
+document.querySelectorAll('[data-toggle]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.dataset.toggle === 'night') {
+      const on = !btn.classList.contains('on-night');
+      btn.classList.toggle('on-night', on);
+      document.body.classList.toggle('night-on', on);
+      state.lateNightOnly = on;
+    } else {
+      const on = !btn.classList.contains('on-live');
+      btn.classList.toggle('on-live', on);
+      state.openNow = on;
+    }
+    render();
+  });
+});
+document.querySelectorAll('.subchip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.subchip').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.drinkFilter = btn.dataset.drink || 'all';
+    render();
+  });
+});
+
+const hoodWrap  = document.getElementById('hoodWrap');
+const hoodBtn   = document.getElementById('hoodBtn');
+const hoodMenu  = document.getElementById('hoodMenu');
+const hoodLabel = document.getElementById('hoodLabel');
+const setHoodOpen = (open) => {
+  hoodWrap.classList.toggle('open', open);
+  hoodMenu.hidden = !open;
+  hoodBtn.setAttribute('aria-expanded', String(open));
+};
+hoodBtn.addEventListener('click', (e) => { e.stopPropagation(); setHoodOpen(hoodMenu.hidden); });
+hoodMenu.querySelectorAll('.select-opt').forEach(opt => {
+  opt.addEventListener('click', () => {
+    hoodMenu.querySelectorAll('.select-opt').forEach(o => o.classList.remove('active'));
+    opt.classList.add('active');
+    hoodLabel.textContent = opt.textContent.trim();
+    state.neighborhood = opt.dataset.hood || 'all';
+    setHoodOpen(false);
+    render();
+  });
+});
+document.addEventListener('click', (e) => { if (!hoodWrap.contains(e.target)) setHoodOpen(false); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setHoodOpen(false); });
+
+const cityWrap  = document.getElementById('cityWrap');
+const cityBtn   = document.getElementById('cityBtn');
+const cityMenu  = document.getElementById('cityMenu');
+const cityLabel = document.getElementById('cityLabel');
+const setCityOpen = (open) => {
+  cityWrap.classList.toggle('open', open);
+  cityMenu.hidden = !open;
+  cityBtn.setAttribute('aria-expanded', String(open));
+};
+function resetHood() {
+  state.neighborhood = 'all';
+  hoodLabel.textContent = 'All areas';
+  hoodMenu.querySelectorAll('.select-opt').forEach((x, i) => x.classList.toggle('active', i === 0));
+}
+function buildCityMenu() {
+  const cities = [...new Set(state.deals.map(d => d.city))].filter(c => c && c.length <= 50).sort();
+  const opt = (label, value, active) =>
+    `<button class="select-opt${active ? ' active' : ''}" role="menuitem" data-city="${esc(value)}">${esc(label)}<svg class="tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>`;
+  cityMenu.innerHTML = opt('All cities', 'all', true) + cities.map(c => opt(c, c, false)).join('');
+  cityMenu.querySelectorAll('.select-opt').forEach(o => {
+    o.addEventListener('click', () => {
+      cityMenu.querySelectorAll('.select-opt').forEach(x => x.classList.remove('active'));
+      o.classList.add('active');
+      state.city = o.dataset.city;
+      cityLabel.textContent = o.textContent.trim();
+      const isPrimaryCity = state.city === 'Colorado Springs';
+      hoodWrap.hidden = !isPrimaryCity;
+      if (!isPrimaryCity) resetHood();
+      setCityOpen(false);
+      render();
+    });
+  });
+}
+cityBtn.addEventListener('click', (e) => { e.stopPropagation(); setCityOpen(cityMenu.hidden); });
+document.addEventListener('click', (e) => { if (!cityWrap.contains(e.target)) setCityOpen(false); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setCityOpen(false); });
+
+spotlightSlot.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-jump]');
+  if (!b) return;
+  const el = document.getElementById('venue-' + b.dataset.jump);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => { toTop.classList.toggle('show', window.scrollY > 360); });
+toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+const submitModal    = document.getElementById('submitModal');
+const submitFormWrap = document.getElementById('submitFormWrap');
+const submitSuccess  = document.getElementById('submitSuccess');
+const submitForm     = document.getElementById('submitForm');
+const submitError    = document.getElementById('submitError');
+const submitSend     = document.getElementById('submitSend');
+function openSubmit() {
+  submitSuccess.hidden = true;
+  submitFormWrap.hidden = false;
+  submitError.hidden = true;
+  submitSend.disabled = false;
+  submitSend.textContent = 'Send it in';
+  submitForm.reset();
+  submitModal.hidden = false;
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => document.getElementById('hh-name')?.focus(), 60);
+}
+function closeSubmit() {
+  submitModal.hidden = true;
+  document.body.style.overflow = '';
+}
+document.getElementById('submitBtn').addEventListener('click', openSubmit);
+document.getElementById('submitClose').addEventListener('click', closeSubmit);
+document.getElementById('submitDone').addEventListener('click', closeSubmit);
+submitModal.addEventListener('click', (e) => { if (e.target === submitModal) closeSubmit(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !submitModal.hidden) closeSubmit(); });
+submitForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  if (!submitForm.checkValidity()) { submitForm.reportValidity(); return; }
+  submitError.hidden = true;
+  submitSend.disabled = true;
+  submitSend.textContent = 'Sending…';
+  try {
+    const res = await fetch('/api/submit-happy-hour', {
+      method: 'POST',
+      body: new FormData(submitForm),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (!res.ok) throw new Error('Request failed');
+    submitFormWrap.hidden = true;
+    submitSuccess.hidden = false;
+  } catch (_) {
+    submitError.hidden = false;
+    submitSend.disabled = false;
+    submitSend.textContent = 'Send it in';
+  }
+});
+
+function centerActiveDay(smooth) {
+  const strip = document.querySelector('.daystrip');
+  const active = strip.querySelector('.day.active');
+  if (!active) return;
+  const stripRect = strip.getBoundingClientRect();
+  const aRect = active.getBoundingClientRect();
+  const target = strip.scrollLeft + (aRect.left - stripRect.left) - (strip.clientWidth - aRect.width) / 2;
+  strip.scrollTo({ left: Math.max(0, target), behavior: smooth ? 'smooth' : 'auto' });
+}
+
+async function loadDeals() {
+  const urls = [
+    './data/deals.csv'
+  ];
+  for (const u of urls) {
+    try {
+      const r = await fetch(u);
+      if (!r.ok) continue;
+      const deals = parseCSV(await r.text());
+      if (deals.length) return deals;
+    } catch (_) {  }
+  }
+  throw new Error('Could not load deals from any source');
+}
+
+async function init() {
+  document.querySelectorAll('.day').forEach(b => {
+    if (b.dataset.day === todayName) {
+      b.classList.add('active');
+      b.insertAdjacentHTML('beforeend', '<span class="dot"></span>');
+    }
+  });
+  centerActiveDay(false);
+  try {
+    state.deals = await loadDeals();
+    buildCityMenu();
+    render();
+    centerActiveDay(false);
+  } catch (e) {
+    console.error(e);
+    gridStatus.textContent = 'Couldn’t load deals right now. Please try again later.';
+    gridStatus.style.display = 'block';
+  }
+}
+init();
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
+</body>
+</html>
