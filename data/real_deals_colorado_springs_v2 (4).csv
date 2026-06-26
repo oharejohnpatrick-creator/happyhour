@@ -1,0 +1,354 @@
+venue,city,neighborhood,day,time,deal_type,deal_description,latenight,taco_tuesday,beer,wine,cocktail,margarita,featured,hot,url
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$4 flagship pints",0,0,1,0,0,0,1,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$5 well cocktails",0,0,0,0,1,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$5 house wine",0,0,0,1,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Monday,10pm-close,Food,"Late night menu: $4 sliders, $5 fries/wings/pretzel, $10 nachos",1,0,0,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$4 flagship pints",0,0,1,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$5 well cocktails",0,0,0,0,1,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$5 house wine",0,0,0,1,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Tuesday,10pm-close,Food,"Late night menu: $4 sliders, $5 fries/wings/pretzel, $10 nachos",1,0,0,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$4 flagship pints",0,0,1,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$5 well cocktails",0,0,0,0,1,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Wednesday,10pm-close,Food,"Late night menu: $4 sliders, $5 fries/wings/pretzel, $10 nachos",1,0,0,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"$4 flagship pints",0,0,1,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"$5 well cocktails",0,0,0,0,1,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Thursday,10pm-close,Food,"Late night menu: $4 sliders, $5 fries/wings/pretzel, $10 nachos",1,0,0,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$4 flagship pints",0,0,1,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$5 well cocktails",0,0,0,0,1,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Saturday,3pm-6pm,Drink,"$4 flagship pints",0,0,1,0,0,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Saturday,3pm-6pm,Drink,"$5 well cocktails",0,0,0,0,1,0,0,0,https://phantomcanyon.com/
+Phantom Canyon Brewing Company,Colorado Springs,Downtown,Sunday,11am-close,Drink,"$4 flagship pints, all day",0,0,1,0,0,0,1,1,https://phantomcanyon.com/
+Cork & Cask,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$1 off wine by the glass, draft beer, and well drinks",0,0,1,1,1,0,1,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Monday,3pm-6pm,Food,"25% off shared plates",0,0,0,0,0,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$1 off wine by the glass, draft beer, and well drinks",0,0,1,1,1,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Tuesday,3pm-6pm,Food,"25% off shared plates",0,0,0,0,0,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$1 off wine by the glass, draft beer, and well drinks",0,0,1,1,1,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Wednesday,3pm-6pm,Food,"25% off shared plates",0,0,0,0,0,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"$1 off wine by the glass, draft beer, and well drinks",0,0,1,1,1,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Thursday,3pm-6pm,Food,"25% off shared plates",0,0,0,0,0,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$1 off wine by the glass, draft beer, and well drinks",0,0,1,1,1,0,0,0,https://www.corkandcaskdrinks.com/
+Cork & Cask,Colorado Springs,Downtown,Friday,3pm-6pm,Food,"25% off shared plates",0,0,0,0,0,0,0,0,https://www.corkandcaskdrinks.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$2 off beer",0,0,1,0,0,0,1,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Monday,9pm-11pm,Drink,"Late night drink and food specials",1,0,0,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$2 off beer",0,0,1,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Tuesday,9pm-11pm,Drink,"Late night drink and food specials",1,0,0,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$2 off beer",0,0,1,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Wednesday,9pm-11pm,Drink,"Late night drink and food specials",1,0,0,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$2 off beer",0,0,1,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Thursday,9pm-11pm,Drink,"Late night drink and food specials",1,0,0,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$2 off beer",0,0,1,0,0,0,0,0,https://www.odysseygastropubco.com/
+Odyssey Gastropub,Colorado Springs,Downtown,Sunday,9pm-11pm,Drink,"Late night drink and food specials",1,0,0,0,0,0,0,0,https://www.odysseygastropubco.com/
+Rasta Pasta,Colorado Springs,Downtown,Monday,3pm-5pm,Drink,"$3 Red Stripe beers",0,0,1,0,0,0,1,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Monday,3pm-5pm,Drink,"$4 house rum punch",0,0,0,0,1,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Monday,3pm-5pm,Drink,"$5 house wines",0,0,0,1,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Monday,3pm-5pm,Food,"$5 appetizers",0,0,0,0,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Tuesday,3pm-5pm,Drink,"$3 Red Stripe beers",0,1,1,0,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Tuesday,3pm-5pm,Drink,"$4 house rum punch",0,1,0,0,1,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Tuesday,3pm-5pm,Food,"$5 appetizers",0,1,0,0,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Wednesday,3pm-5pm,Drink,"$3 Red Stripe beers",0,0,1,0,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Wednesday,3pm-5pm,Drink,"2-for-1 house wines, Wine Wednesday",0,0,0,1,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Thursday,3pm-5pm,Drink,"$3 Red Stripe beers",0,0,1,0,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Friday,3pm-5pm,Drink,"$3 Red Stripe beers",0,0,1,0,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Saturday,3pm-5pm,Drink,"$3 Red Stripe beers",0,0,1,0,0,0,0,0,https://realrastapasta.com/
+Rasta Pasta,Colorado Springs,Downtown,Sunday,3pm-5pm,Drink,"$3 Red Stripe beers",0,0,1,0,0,0,0,0,https://realrastapasta.com/
+Benny's Restaurant & Lounge,Colorado Springs,Old Colorado City,Monday,4pm-7pm,Drink,"50 cents off all drinks",0,0,1,1,1,0,0,0,https://www.bennyscos.net/
+Benny's Restaurant & Lounge,Colorado Springs,Old Colorado City,Tuesday,4pm-7pm,Drink,"50 cents off all drinks",0,0,1,1,1,0,0,0,https://www.bennyscos.net/
+Benny's Restaurant & Lounge,Colorado Springs,Old Colorado City,Wednesday,4pm-7pm,Drink,"50 cents off all drinks",0,0,1,1,1,0,0,0,https://www.bennyscos.net/
+Benny's Restaurant & Lounge,Colorado Springs,Old Colorado City,Thursday,4pm-7pm,Drink,"50 cents off all drinks",0,0,1,1,1,0,0,0,https://www.bennyscos.net/
+Benny's Restaurant & Lounge,Colorado Springs,Old Colorado City,Friday,4pm-7pm,Drink,"50 cents off all drinks",0,0,1,1,1,0,0,0,https://www.bennyscos.net/
+Dublin House Sports Bar and Grill,Colorado Springs,Austin Bluffs,Thursday,3pm-6pm,Drink,"$3 Miller Lite during happy hour",0,0,1,0,0,0,0,0,https://dublinhouseco.com/
+Dublin House Sports Bar and Grill,Colorado Springs,Austin Bluffs,Friday,3pm-6pm,Drink,"$3 Miller Lite during happy hour",0,0,1,0,0,0,0,0,https://dublinhouseco.com/
+Principal's Office,Colorado Springs,Ivywild,Monday,3pm-6pm,Drink,"All wine, sangria, and draft beer on happy hour menu",0,0,1,1,0,0,1,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Monday,3pm-6pm,Drink,"$2 off all Honor Roll cocktails",0,0,0,0,1,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Tuesday,3pm-6pm,Drink,"All wine, sangria, and draft beer on happy hour menu",0,0,1,1,0,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Tuesday,3pm-6pm,Drink,"$2 off all Honor Roll cocktails",0,0,0,0,1,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Wednesday,3pm-6pm,Drink,"All wine, sangria, and draft beer on happy hour menu",0,0,1,1,0,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Wednesday,3pm-6pm,Drink,"$2 off all Honor Roll cocktails",0,0,0,0,1,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Thursday,3pm-6pm,Drink,"All wine, sangria, and draft beer on happy hour menu",0,0,1,1,0,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Thursday,3pm-6pm,Drink,"$2 off all Honor Roll cocktails",0,0,0,0,1,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Friday,3pm-6pm,Drink,"All wine, sangria, and draft beer on happy hour menu",0,0,1,1,0,0,0,0,https://principalsoffice.co/
+Principal's Office,Colorado Springs,Ivywild,Friday,3pm-6pm,Drink,"$2 off all Honor Roll cocktails",0,0,0,0,1,0,0,0,https://principalsoffice.co/
+Abby's Irish Pub,Colorado Springs,Briargate,Monday,3pm-6pm,Drink,"$1 off drafts (excluding rotators)",0,0,1,0,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Monday,3pm-6pm,Drink,"$1 off house wines",0,0,0,1,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Monday,3pm-6pm,Drink,"$1 off well liquors",0,0,0,0,1,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Tuesday,3pm-6pm,Drink,"$1 off drafts (excluding rotators)",0,0,1,0,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Tuesday,3pm-6pm,Drink,"$1 off house wines",0,0,0,1,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Tuesday,3pm-6pm,Drink,"$1 off well liquors",0,0,0,0,1,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Wednesday,3pm-6pm,Drink,"$1 off drafts (excluding rotators)",0,0,1,0,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Wednesday,3pm-6pm,Drink,"$1 off house wines",0,0,0,1,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Wednesday,3pm-6pm,Drink,"$1 off well liquors",0,0,0,0,1,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$1 off drafts (excluding rotators)",0,0,1,0,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$1 off house wines",0,0,0,1,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$1 off well liquors",0,0,0,0,1,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$1 off drafts (excluding rotators)",0,0,1,0,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$1 off house wines",0,0,0,1,0,0,0,0,https://www.abbysirishpub.com/
+Abby's Irish Pub,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$1 off well liquors",0,0,0,0,1,0,0,0,https://www.abbysirishpub.com/
+Streetcar 520,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$5 pints",0,0,1,0,0,0,1,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$5 wells",0,0,0,0,1,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$5 house wine",0,0,0,1,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Monday,4pm-6pm,Food,"50% off select appetizers",0,0,0,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$5 pints",0,0,1,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Tuesday,4pm-6pm,Food,"50% off select appetizers",0,0,0,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$5 pints",0,0,1,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Wednesday,4pm-6pm,Food,"50% off select appetizers",0,0,0,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$5 pints",0,0,1,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Thursday,4pm-6pm,Food,"50% off select appetizers",0,0,0,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$5 pints",0,0,1,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Friday,4pm-6pm,Food,"50% off select appetizers",0,0,0,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Saturday,4pm-6pm,Drink,"$5 pints",0,0,1,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Saturday,4pm-6pm,Food,"50% off select appetizers",0,0,0,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Sunday,4pm-6pm,Drink,"$5 pints",0,0,1,0,0,0,0,0,https://streetcar520.com/
+Streetcar 520,Colorado Springs,Downtown,Sunday,4pm-6pm,Food,"50% off select appetizers",0,0,0,0,0,0,0,0,https://streetcar520.com/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Tuesday,3pm-6pm,Drink,"$2 off all alcoholic beverages, buy-one-get-one select items",0,0,1,1,1,0,1,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Tuesday,3pm-6pm,Food,"$2 off select bites: warm caprese, roasted cauliflower, classic pizza",0,0,0,0,0,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Wednesday,3pm-6pm,Drink,"$2 off all alcoholic beverages, buy-one-get-one select items",0,0,1,1,1,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Wednesday,3pm-6pm,Food,"$2 off select bites: warm caprese, roasted cauliflower, classic pizza",0,0,0,0,0,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Thursday,3pm-6pm,Drink,"$2 off all alcoholic beverages, buy-one-get-one select items",0,0,1,1,1,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Thursday,3pm-6pm,Food,"$2 off select bites: warm caprese, roasted cauliflower, classic pizza",0,0,0,0,0,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Friday,3pm-6pm,Drink,"$2 off all alcoholic beverages, buy-one-get-one select items",0,0,1,1,1,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Friday,3pm-6pm,Food,"$2 off select bites: warm caprese, roasted cauliflower, classic pizza",0,0,0,0,0,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Saturday,12pm-2:30pm,Drink,"Cicchetti Hour weekend happy hour",0,0,1,1,1,0,0,0,https://www.stellinapizza.co/
+Stellina Pizza Cafe,Colorado Springs,Shooks Run,Sunday,12pm-2:30pm,Drink,"Cicchetti Hour weekend happy hour",0,0,1,1,1,0,0,0,https://www.stellinapizza.co/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Monday,4pm-6pm,Drink,"$1 off most beers",0,0,1,0,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Monday,4pm-6pm,Drink,"$4 wine",0,0,0,1,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Monday,4pm-6pm,Drink,"$3 well whiskey and vodka",0,0,0,0,1,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Tuesday,4pm-6pm,Drink,"$1 off most beers",0,0,1,0,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Tuesday,4pm-6pm,Drink,"$4 wine",0,0,0,1,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Tuesday,4pm-6pm,Drink,"$3 well whiskey and vodka",0,0,0,0,1,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Wednesday,4pm-6pm,Drink,"$1 off most beers",0,0,1,0,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Wednesday,4pm-6pm,Drink,"$4 wine",0,0,0,1,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Wednesday,4pm-6pm,Drink,"$3 well whiskey and vodka",0,0,0,0,1,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Thursday,4pm-6pm,Drink,"$1 off most beers",0,0,1,0,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Thursday,4pm-6pm,Drink,"$4 wine",0,0,0,1,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Thursday,4pm-6pm,Drink,"$3 well whiskey and vodka",0,0,0,0,1,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Friday,4pm-6pm,Drink,"$1 off most beers",0,0,1,0,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Friday,4pm-6pm,Drink,"$4 wine",0,0,0,1,0,0,0,0,https://stircoffeeshop.com/
+STIR Coffee & Cocktails,Colorado Springs,Old North End,Friday,4pm-6pm,Drink,"$3 well whiskey and vodka",0,0,0,0,1,0,0,0,https://stircoffeeshop.com/
+Summa,Colorado Springs,Old Colorado City,Monday,3:30pm-5:30pm,Drink,"$1 off draft beer, wine, well liquors, and signature cocktails",0,0,1,1,1,0,0,0,https://www.summacos.com/
+Summa,Colorado Springs,Old Colorado City,Tuesday,3:30pm-5:30pm,Drink,"$1 off draft beer, wine, well liquors, and signature cocktails",0,0,1,1,1,0,0,0,https://www.summacos.com/
+Summa,Colorado Springs,Old Colorado City,Wednesday,3:30pm-5:30pm,Drink,"$1 off draft beer, wine, well liquors, and signature cocktails",0,0,1,1,1,0,0,0,https://www.summacos.com/
+Summa,Colorado Springs,Old Colorado City,Thursday,3:30pm-5:30pm,Drink,"$1 off draft beer, wine, well liquors, and signature cocktails",0,0,1,1,1,0,0,0,https://www.summacos.com/
+Summa,Colorado Springs,Old Colorado City,Friday,3:30pm-5:30pm,Drink,"$1 off draft beer, wine, well liquors, and signature cocktails",0,0,1,1,1,0,0,0,https://www.summacos.com/
+The Famous Steak House,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$3 off wine by the glass",0,0,0,1,0,0,1,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$2 off house cocktails",0,0,0,0,1,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$1 off all beer",0,0,1,0,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$3 off wine by the glass",0,0,0,1,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$2 off house cocktails",0,0,0,0,1,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$1 off all beer",0,0,1,0,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$3 off wine by the glass",0,0,0,1,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$2 off house cocktails",0,0,0,0,1,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$1 off all beer",0,0,1,0,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$3 off wine by the glass",0,0,0,1,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$2 off house cocktails",0,0,0,0,1,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$1 off all beer",0,0,1,0,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$3 off wine by the glass",0,0,0,1,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$2 off house cocktails",0,0,0,0,1,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$1 off all beer",0,0,1,0,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Saturday,4pm-6pm,Drink,"$3 off wine by the glass",0,0,0,1,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Saturday,4pm-6pm,Drink,"$2 off house cocktails",0,0,0,0,1,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Saturday,4pm-6pm,Drink,"$1 off all beer",0,0,1,0,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Sunday,4pm-6pm,Drink,"$3 off wine by the glass",0,0,0,1,0,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Sunday,4pm-6pm,Drink,"$2 off house cocktails",0,0,0,0,1,0,0,0,https://www.thefamoussteakhouse.net/
+The Famous Steak House,Colorado Springs,Downtown,Sunday,4pm-6pm,Drink,"$1 off all beer",0,0,1,0,0,0,0,0,https://www.thefamoussteakhouse.net/
+Wobbly Olive,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$6 martinis, half off beer, $5 house wine",0,0,1,1,1,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Monday,4pm-6pm,Food,"$2 off all food",0,0,0,0,0,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$6 martinis, half off beer, $5 house wine",0,0,1,1,1,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Tuesday,4pm-6pm,Food,"$2 off all food",0,0,0,0,0,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$6 martinis, half off beer, $5 house wine",0,0,1,1,1,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Wednesday,4pm-6pm,Food,"$2 off all food",0,0,0,0,0,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$6 martinis, half off beer, $5 house wine",0,0,1,1,1,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Thursday,4pm-6pm,Food,"$2 off all food",0,0,0,0,0,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$6 martinis, half off beer, $5 house wine",0,0,1,1,1,0,0,0,https://www.wobblyolive.com/
+Wobbly Olive,Colorado Springs,Downtown,Friday,4pm-6pm,Food,"$2 off all food",0,0,0,0,0,0,0,0,https://www.wobblyolive.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Monday,3pm-6pm,Drink,"$2 off all beer, liquor, cocktails, wine, and slushies",0,0,1,1,1,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Monday,3pm-6pm,Food,"$2 off chips & salsa, wonton poppers, and pesto bread",0,0,0,0,0,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Tuesday,3pm-6pm,Drink,"$2 off all beer, liquor, cocktails, wine, and slushies",0,0,1,1,1,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Tuesday,8pm-12am,Drink,"Draft night: half off all draft shots, draft cocktails, and draft beer",1,0,1,0,1,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Wednesday,3pm-6pm,Drink,"$2 off all beer, liquor, cocktails, wine, and slushies",0,0,1,1,1,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Thursday,3pm-6pm,Drink,"$2 off all beer, liquor, cocktails, wine, and slushies",0,0,1,1,1,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Friday,3pm-6pm,Drink,"$2 off all beer, liquor, cocktails, wine, and slushies",0,0,1,1,1,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Saturday,3pm-6pm,Drink,"$2 off all beer, liquor, cocktails, wine, and slushies",0,0,1,1,1,0,0,0,https://controlroomarcade.com/
+The Control Room Arcade & Bar,Colorado Springs,East Side,Sunday,11am-close,Drink,"$2 off all beer, liquor, cocktails, wine, and slushies, all day",0,0,1,1,1,0,0,0,https://controlroomarcade.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$6 cocktails, half off wine, $2 off drafts",0,0,1,1,1,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Tuesday,4pm-6pm,Food,"Half price apps and dips",0,0,0,0,0,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$6 cocktails, half off wine, $2 off drafts",0,0,1,1,1,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Wednesday,4pm-6pm,Food,"Half price apps and dips",0,0,0,0,0,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$6 cocktails, half off wine, $2 off drafts",0,0,1,1,1,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Thursday,4pm-6pm,Food,"Half price apps and dips",0,0,0,0,0,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$6 cocktails, half off wine, $2 off drafts",0,0,1,1,1,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Friday,4pm-6pm,Food,"Half price apps and dips",0,0,0,0,0,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Saturday,4pm-6pm,Drink,"$6 cocktails, half off wine, $2 off drafts",0,0,1,1,1,0,0,0,https://www.thewarehouserestaurant.com/
+The Warehouse Restaurant and Gallery,Colorado Springs,Downtown,Saturday,4pm-6pm,Food,"Half price apps and dips",0,0,0,0,0,0,0,0,https://www.thewarehouserestaurant.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$6 Mojito, Tiki Punch, or Frozen Colada",0,0,0,0,1,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Monday,8pm-1:45am,Drink,"$5 shot specials: Green Tea, Pineapple Upside Down, or Ocean Water",1,0,0,0,0,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$6 Mojito, Tiki Punch, or Frozen Colada",0,0,0,0,1,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Tuesday,8pm-1:45am,Drink,"$5 shot specials: Green Tea, Pineapple Upside Down, or Ocean Water",1,0,0,0,0,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$6 Mojito, Tiki Punch, or Frozen Colada",0,0,0,0,1,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Wednesday,8pm-1:45am,Drink,"$5 shot specials: Green Tea, Pineapple Upside Down, or Ocean Water",1,0,0,0,0,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$6 Mojito, Tiki Punch, or Frozen Colada",0,0,0,0,1,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Thursday,8pm-1:45am,Drink,"$5 shot specials: Green Tea, Pineapple Upside Down, or Ocean Water",1,0,0,0,0,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Friday,8pm-1:45am,Drink,"$5 shot specials: Green Tea, Pineapple Upside Down, or Ocean Water",1,0,0,0,0,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Saturday,8pm-1:45am,Drink,"$5 shot specials: Green Tea, Pineapple Upside Down, or Ocean Water",1,0,0,0,0,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Sunday,4pm-6pm,Drink,"$6 Mojito, Tiki Punch, or Frozen Colada",0,0,0,0,1,0,0,0,https://www.shrunkenheadtiki.com/
+Shrunken Head Tiki,Colorado Springs,Downtown,Sunday,8pm-1:45am,Drink,"$5 shot specials: Green Tea, Pineapple Upside Down, or Ocean Water",1,0,0,0,0,0,0,0,https://www.shrunkenheadtiki.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Monday,3pm-5:30pm,Drink,"$5 house wines, draft suds, and wells",0,0,1,1,1,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Monday,3pm-5:30pm,Food,"$5 black garlic fries, $9 shrimp cocktail, $4 edamame, $9 crab dip",0,0,0,0,0,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Tuesday,3pm-5:30pm,Drink,"$5 house wines, draft suds, and wells",0,0,1,1,1,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Tuesday,3pm-5:30pm,Food,"$5 black garlic fries, $9 shrimp cocktail, $4 edamame, $9 crab dip",0,0,0,0,0,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Wednesday,3pm-5:30pm,Drink,"$5 house wines, draft suds, and wells",0,0,1,1,1,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Wednesday,3pm-5:30pm,Food,"$5 black garlic fries, $9 shrimp cocktail, $4 edamame, $9 crab dip",0,0,0,0,0,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Thursday,3pm-5:30pm,Drink,"$5 house wines, draft suds, and wells",0,0,1,1,1,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Thursday,3pm-5:30pm,Food,"$5 black garlic fries, $9 shrimp cocktail, $4 edamame, $9 crab dip",0,0,0,0,0,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Friday,3pm-5:30pm,Drink,"$5 house wines, draft suds, and wells",0,0,1,1,1,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Friday,3pm-5:30pm,Food,"$5 black garlic fries, $9 shrimp cocktail, $4 edamame, $9 crab dip",0,0,0,0,0,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Saturday,3pm-5:30pm,Drink,"$5 house wines, draft suds, and wells",0,0,1,1,1,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Saturday,3pm-5:30pm,Food,"$5 black garlic fries, $9 shrimp cocktail, $4 edamame, $9 crab dip",0,0,0,0,0,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Sunday,3pm-5:30pm,Drink,"$5 house wines, draft suds, and wells",0,0,1,1,1,0,0,0,https://www.bonnyandreadseafood.com/
+Bonny and Read Seafood,Colorado Springs,Downtown,Sunday,3pm-5:30pm,Food,"$5 black garlic fries, $9 shrimp cocktail, $4 edamame, $9 crab dip",0,0,0,0,0,0,0,0,https://www.bonnyandreadseafood.com/
+Shangri-La East,Colorado Springs,Briargate,Monday,3pm-6pm,Drink,"$2 off signature cocktails",0,0,0,0,1,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Monday,3pm-6pm,Drink,"$1 off wine, beer, and sake",0,0,1,1,0,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Tuesday,3pm-6pm,Drink,"$2 off signature cocktails",0,0,0,0,1,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Tuesday,3pm-6pm,Drink,"$1 off wine, beer, and sake",0,0,1,1,0,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Wednesday,3pm-6pm,Drink,"$2 off signature cocktails",0,0,0,0,1,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Wednesday,3pm-6pm,Drink,"$1 off wine, beer, and sake",0,0,1,1,0,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$2 off signature cocktails",0,0,0,0,1,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$1 off wine, beer, and sake",0,0,1,1,0,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$2 off signature cocktails",0,0,0,0,1,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$1 off wine, beer, and sake",0,0,1,1,0,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Saturday,3pm-6pm,Drink,"$2 off signature cocktails",0,0,0,0,1,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Saturday,3pm-6pm,Drink,"$1 off wine, beer, and sake",0,0,1,1,0,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Sunday,3pm-6pm,Drink,"$2 off signature cocktails",0,0,0,0,1,0,0,0,https://www.shangrilacs.com/
+Shangri-La East,Colorado Springs,Briargate,Sunday,3pm-6pm,Drink,"$1 off wine, beer, and sake",0,0,1,1,0,0,0,0,https://www.shangrilacs.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Monday,3pm-6pm,Drink,"$5 grande import drafts",0,0,1,0,0,0,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Monday,3pm-6pm,Drink,"$8 grande house margaritas",0,0,0,0,0,1,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Monday,3pm-6pm,Food,"$3 tacos, $4 enchiladas",0,0,0,0,0,0,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Tuesday,3pm-6pm,Drink,"$5 grande import drafts",0,1,1,0,0,0,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Tuesday,3pm-6pm,Drink,"$8 grande house margaritas",0,1,0,0,0,1,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Tuesday,3pm-6pm,Food,"$3 tacos, $4 enchiladas",0,1,0,0,0,0,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Wednesday,3pm-6pm,Drink,"$5 grande import drafts",0,0,1,0,0,0,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Wednesday,3pm-6pm,Drink,"$8 grande house margaritas",0,0,0,0,0,1,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Thursday,3pm-6pm,Drink,"$5 grande import drafts",0,0,1,0,0,0,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Thursday,3pm-6pm,Drink,"$8 grande house margaritas",0,0,0,0,0,1,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Friday,3pm-6pm,Drink,"$5 grande import drafts",0,0,1,0,0,0,0,0,https://www.salsabravacolorado.com/
+Salsa Brava Fresh Mexican Grill,Colorado Springs,Powers,Friday,3pm-6pm,Drink,"$8 grande house margaritas",0,0,0,0,0,1,0,0,https://www.salsabravacolorado.com/
+503W,Colorado Springs,Old Colorado City,Tuesday,3pm-6pm,Drink,"$5 wells",0,0,0,0,1,0,1,0,https://www.503w.co/
+503W,Colorado Springs,Old Colorado City,Tuesday,3pm-6pm,Food,"$2 off all small bites",0,0,0,0,0,0,0,0,https://www.503w.co/
+503W,Colorado Springs,Old Colorado City,Wednesday,3pm-6pm,Drink,"$2 off all glasses of wine all day, Winedown Wednesday",0,0,0,1,0,0,0,0,https://www.503w.co/
+503W,Colorado Springs,Old Colorado City,Thursday,11am-close,Drink,"$10 house cocktails all day, Tap Thursday $2 off all taps",0,0,1,0,1,0,0,0,https://www.503w.co/
+503W,Colorado Springs,Old Colorado City,Friday,3pm-6pm,Drink,"$5 wells",0,0,0,0,1,0,0,0,https://www.503w.co/
+503W,Colorado Springs,Old Colorado City,Friday,3pm-6pm,Drink,"$7 Chareau margaritas",0,0,0,0,0,1,0,0,https://www.503w.co/
+503W,Colorado Springs,Old Colorado City,Friday,3pm-6pm,Food,"$2 off all small bites",0,0,0,0,0,0,0,0,https://www.503w.co/
+Arceo's Mexican Restaurant,Colorado Springs,South Nevada,Monday,3pm-6pm,Drink,"$4.25 margaritas",0,0,0,0,0,1,0,0,https://arceosrestaurant.com/
+Arceo's Mexican Restaurant,Colorado Springs,South Nevada,Monday,3pm-6pm,Drink,"$3.75 beers",0,0,1,0,0,0,0,0,https://arceosrestaurant.com/
+Arceo's Mexican Restaurant,Colorado Springs,South Nevada,Monday,3pm-6pm,Food,"$2 off appetizers",0,0,0,0,0,0,0,0,https://arceosrestaurant.com/
+Arceo's Mexican Restaurant,Colorado Springs,South Nevada,Thursday,3pm-6pm,Drink,"$4.25 margaritas",0,0,0,0,0,1,0,0,https://arceosrestaurant.com/
+Arceo's Mexican Restaurant,Colorado Springs,South Nevada,Thursday,3pm-6pm,Drink,"$3.75 beers",0,0,1,0,0,0,0,0,https://arceosrestaurant.com/
+Arceo's Mexican Restaurant,Colorado Springs,South Nevada,Thursday,3pm-6pm,Food,"$2 off appetizers",0,0,0,0,0,0,0,0,https://arceosrestaurant.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Sunday,3pm-6pm,Drink,"Happy hour food and drink specials",0,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Monday,3pm-6pm,Drink,"Happy hour food and drink specials",0,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Monday,8pm-close,Drink,"Late night happy hour food and drink specials",1,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Tuesday,3pm-6pm,Drink,"Happy hour food and drink specials",0,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Tuesday,8pm-close,Drink,"Late night happy hour food and drink specials",1,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Wednesday,3pm-6pm,Drink,"Happy hour food and drink specials",0,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Wednesday,8pm-close,Drink,"Late night happy hour food and drink specials",1,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Thursday,3pm-6pm,Drink,"Happy hour food and drink specials",0,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Thursday,8pm-close,Drink,"Late night happy hour food and drink specials",1,0,0,0,0,0,0,0,https://cmbrew.com/
+Colorado Mountain Brewery,Colorado Springs,Westside,Friday,3pm-6pm,Drink,"Happy hour food and drink specials",0,0,0,0,0,0,0,0,https://cmbrew.com/
+3.14 Pi Bar,Colorado Springs,Northwest,Monday,4pm-6pm,Drink,"Weekday happy hour cocktail and craft beverage specials",0,0,0,0,1,0,0,0,https://www.314pibar.com/
+3.14 Pi Bar,Colorado Springs,Northwest,Tuesday,4pm-6pm,Drink,"Weekday happy hour cocktail and craft beverage specials",0,0,0,0,1,0,0,0,https://www.314pibar.com/
+3.14 Pi Bar,Colorado Springs,Northwest,Wednesday,4pm-6pm,Drink,"Weekday happy hour cocktail and craft beverage specials",0,0,0,0,1,0,0,0,https://www.314pibar.com/
+3.14 Pi Bar,Colorado Springs,Northwest,Thursday,4pm-6pm,Drink,"Weekday happy hour cocktail and craft beverage specials",0,0,0,0,1,0,0,0,https://www.314pibar.com/
+3.14 Pi Bar,Colorado Springs,Northwest,Friday,4pm-6pm,Drink,"Weekday happy hour cocktail and craft beverage specials",0,0,0,0,1,0,0,0,https://www.314pibar.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"Daily happy hour specials",0,0,1,1,1,0,0,0,https://jackquinnspub.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"Daily happy hour specials",0,0,1,1,1,0,0,0,https://jackquinnspub.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"Daily happy hour specials",0,0,1,1,1,0,0,0,https://jackquinnspub.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Wednesday,6pm-close,Drink,"Whiskey Wednesday: half off all whiskeys",1,0,0,0,0,0,1,0,https://jackquinnspub.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"Daily happy hour specials",0,0,1,1,1,0,0,0,https://jackquinnspub.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"Daily happy hour specials",0,0,1,1,1,0,0,0,https://jackquinnspub.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Saturday,3pm-6pm,Drink,"Daily happy hour specials",0,0,1,1,1,0,0,0,https://jackquinnspub.com/
+Jack Quinn's Irish Alehouse and Pub,Colorado Springs,Downtown,Sunday,3pm-6pm,Drink,"Daily happy hour specials",0,0,1,1,1,0,0,0,https://jackquinnspub.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Monday,3pm-5pm,Drink,"$5 select beers and hand-picked wines",0,0,1,1,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Monday,3pm-5pm,Food,"Sliders, truffle pubs, poutine, and more",0,0,0,0,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Tuesday,3pm-5pm,Drink,"$5 select beers and hand-picked wines",0,0,1,1,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Tuesday,3pm-5pm,Food,"Sliders, truffle pubs, poutine, and more",0,0,0,0,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Wednesday,3pm-5pm,Drink,"$5 select beers and hand-picked wines",0,0,1,1,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Wednesday,3pm-5pm,Food,"Sliders, truffle pubs, poutine, and more",0,0,0,0,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Thursday,3pm-5pm,Drink,"$5 select beers and hand-picked wines",0,0,1,1,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Thursday,3pm-5pm,Food,"Sliders, truffle pubs, poutine, and more",0,0,0,0,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Friday,3pm-5pm,Drink,"$5 select beers and hand-picked wines",0,0,1,1,0,0,0,0,https://cerberusbrewingco.com/
+Cerberus Brewing Company,Colorado Springs,Old Colorado City,Friday,3pm-5pm,Food,"Sliders, truffle pubs, poutine, and more",0,0,0,0,0,0,0,0,https://cerberusbrewingco.com/
+Ambli Global Cuisine,Colorado Springs,,Monday,4pm-6pm,Food,"$5 off dips, salads, and sandwiches",0,0,0,0,0,0,0,0,https://www.amblidenver.com/ambli-colo-springs
+Ambli Global Cuisine,Colorado Springs,,Tuesday,4pm-6pm,Food,"$5 off dips, salads, and sandwiches",0,0,0,0,0,0,0,0,https://www.amblidenver.com/ambli-colo-springs
+Ambli Global Cuisine,Colorado Springs,,Wednesday,4pm-6pm,Food,"$5 off dips, salads, and sandwiches",0,0,0,0,0,0,0,0,https://www.amblidenver.com/ambli-colo-springs
+Ambli Global Cuisine,Colorado Springs,,Thursday,4pm-6pm,Food,"$5 off dips, salads, and sandwiches",0,0,0,0,0,0,0,0,https://www.amblidenver.com/ambli-colo-springs
+Ambli Global Cuisine,Colorado Springs,,Friday,4pm-6pm,Food,"$5 off dips, salads, and sandwiches",0,0,0,0,0,0,0,0,https://www.amblidenver.com/ambli-colo-springs
+Ambli Global Cuisine,Colorado Springs,,Saturday,4pm-6pm,Food,"$5 off dips, salads, and sandwiches",0,0,0,0,0,0,0,0,https://www.amblidenver.com/ambli-colo-springs
+Four by Brother Luck,Colorado Springs,Downtown,Tuesday,3pm-5pm,Drink,"Discounted drinks and bar appetizers",0,0,0,0,0,0,0,0,https://www.fourbybrotherluck.com/
+Four by Brother Luck,Colorado Springs,Downtown,Wednesday,3pm-5pm,Drink,"Discounted drinks and bar appetizers",0,0,0,0,0,0,0,0,https://www.fourbybrotherluck.com/
+Four by Brother Luck,Colorado Springs,Downtown,Thursday,3pm-5pm,Drink,"Discounted drinks and bar appetizers",0,0,0,0,0,0,0,0,https://www.fourbybrotherluck.com/
+Four by Brother Luck,Colorado Springs,Downtown,Friday,3pm-5pm,Drink,"Discounted drinks and bar appetizers",0,0,0,0,0,0,0,0,https://www.fourbybrotherluck.com/
+Four by Brother Luck,Colorado Springs,Downtown,Saturday,3pm-5pm,Drink,"Discounted drinks and bar appetizers",0,0,0,0,0,0,0,0,https://www.fourbybrotherluck.com/
+Four by Brother Luck,Colorado Springs,Downtown,Sunday,3pm-5pm,Drink,"Discounted drinks and bar appetizers",0,0,0,0,0,0,0,0,https://www.fourbybrotherluck.com/
+Fujiyama Sushi,Colorado Springs,Downtown,Monday,5pm-6pm,Food,"50% off everything",0,0,0,0,0,0,1,0,https://fujiyamasushi.com/
+José Muldoon's,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$2 off well drinks, house margaritas, draft beers, wines, and sangria",0,0,1,1,1,1,0,0,https://josemuldoons.com/
+José Muldoon's,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$2 off well drinks, house margaritas, draft beers, wines, and sangria",0,1,1,1,1,1,0,0,https://josemuldoons.com/
+José Muldoon's,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$2 off well drinks, house margaritas, draft beers, wines, and sangria",0,0,1,1,1,1,0,0,https://josemuldoons.com/
+José Muldoon's,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"$2 off well drinks, house margaritas, draft beers, wines, and sangria",0,0,1,1,1,1,0,0,https://josemuldoons.com/
+José Muldoon's,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$2 off well drinks, house margaritas, draft beers, wines, and sangria",0,0,1,1,1,1,0,0,https://josemuldoons.com/
+José Muldoon's,Colorado Springs,Downtown,Saturday,3pm-6pm,Drink,"$2 off well drinks, house margaritas, draft beers, wines, and sangria",0,0,1,1,1,1,0,0,https://josemuldoons.com/
+José Muldoon's,Colorado Springs,Downtown,Sunday,3pm-6pm,Drink,"$2 off well drinks, house margaritas, draft beers, wines, and sangria",0,0,1,1,1,1,0,0,https://josemuldoons.com/
+José Muldoon's,Colorado Springs,Downtown,Sunday,11am-2pm,Drink,"Margarita Brunch: $3 house margaritas with entree purchase",0,0,0,0,0,1,0,0,https://josemuldoons.com/
+Lazy Susan's,Colorado Springs,Cimarron Hills,Sunday,12pm-10pm,Drink,"$5 wells, wines, bloody marys, and mimosas, all day",0,0,0,1,1,0,1,0,https://lazysusanscos.com/
+Lazy Susan's,Colorado Springs,Cimarron Hills,Sunday,12pm-10pm,Food,"$5 appetizers, all day",0,0,0,0,0,0,0,0,https://lazysusanscos.com/
+MacKenzie's Chop House,Colorado Springs,Downtown,Monday,4pm-7pm,Drink,"Premium happy hour with small plates in the lounge and on the patio",0,0,1,1,1,0,0,0,https://www.mackenzieschophouse.com/
+MacKenzie's Chop House,Colorado Springs,Downtown,Tuesday,4pm-7pm,Drink,"Premium happy hour with small plates in the lounge and on the patio",0,0,1,1,1,0,0,0,https://www.mackenzieschophouse.com/
+MacKenzie's Chop House,Colorado Springs,Downtown,Wednesday,4pm-7pm,Drink,"Premium happy hour with small plates in the lounge and on the patio",0,0,1,1,1,0,0,0,https://www.mackenzieschophouse.com/
+MacKenzie's Chop House,Colorado Springs,Downtown,Thursday,4pm-7pm,Drink,"Premium happy hour with small plates in the lounge and on the patio",0,0,1,1,1,0,0,0,https://www.mackenzieschophouse.com/
+MacKenzie's Chop House,Colorado Springs,Downtown,Friday,3pm-7pm,Drink,"Premium happy hour with small plates in the lounge and on the patio",0,0,1,1,1,0,0,0,https://www.mackenzieschophouse.com/
+Marigold Bistro,Colorado Springs,,Tuesday,4pm-6pm,Drink,"$10 bites and drink specials, bar area only",0,0,0,0,0,0,0,0,https://marigoldbistrocos.com/
+Marigold Bistro,Colorado Springs,,Wednesday,4pm-6pm,Drink,"$10 bites and drink specials, bar area only",0,0,0,0,0,0,0,0,https://marigoldbistrocos.com/
+Marigold Bistro,Colorado Springs,,Thursday,4pm-6pm,Drink,"$10 bites and drink specials, bar area only",0,0,0,0,0,0,0,0,https://marigoldbistrocos.com/
+Mother Muff's Kitchen and Spirits,Colorado Springs,Old Colorado City,Wednesday,9am-2am,Drink,"$4 happy hour: any single drink",0,0,1,1,1,0,1,0,https://www.mothermuffs.com/
+O'Furry's,Colorado Springs,,Monday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
+O'Furry's,Colorado Springs,,Tuesday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
+O'Furry's,Colorado Springs,,Wednesday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
+O'Furry's,Colorado Springs,,Thursday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
+O'Furry's,Colorado Springs,,Friday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
+O'Furry's,Colorado Springs,,Saturday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
+O'Furry's,Colorado Springs,,Sunday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
+Parry's Sliceria & Taps,Colorado Springs,Briargate,Monday,3pm-6pm,Drink,"$4 signature beers, wells, and house wine",0,0,1,1,1,0,0,0,https://parryspizza.com/locations/colorado-springs-sliceria/
+Parry's Sliceria & Taps,Colorado Springs,Briargate,Tuesday,3pm-6pm,Drink,"$4 signature beers, wells, and house wine",0,0,1,1,1,0,0,0,https://parryspizza.com/locations/colorado-springs-sliceria/
+Parry's Sliceria & Taps,Colorado Springs,Briargate,Wednesday,3pm-6pm,Drink,"$4 signature beers, wells, and house wine",0,0,1,1,1,0,0,0,https://parryspizza.com/locations/colorado-springs-sliceria/
+Parry's Sliceria & Taps,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$4 signature beers, wells, and house wine",0,0,1,1,1,0,0,0,https://parryspizza.com/locations/colorado-springs-sliceria/
+Parry's Sliceria & Taps,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$4 signature beers, wells, and house wine",0,0,1,1,1,0,0,0,https://parryspizza.com/locations/colorado-springs-sliceria/
+Parry's Sliceria & Taps,Colorado Springs,Briargate,Sunday,11am-close,Drink,"$4 signature beers, wells, and house wine, all day",0,0,1,1,1,0,0,0,https://parryspizza.com/locations/colorado-springs-sliceria/
+Wackadoo Brewing,Colorado Springs,Northwest,Monday,11am-2pm,Drink,"Happy hour (submitted by venue)",0,0,0,0,0,0,0,0,https://www.wackadoobrewing.com/
+Wackadoo Brewing,Colorado Springs,Northwest,Tuesday,11am-2pm,Drink,"Happy hour (submitted by venue)",0,0,0,0,0,0,0,0,https://www.wackadoobrewing.com/
+Wackadoo Brewing,Colorado Springs,Northwest,Wednesday,11am-2pm,Drink,"Happy hour (submitted by venue)",0,0,0,0,0,0,0,0,https://www.wackadoobrewing.com/
+Wackadoo Brewing,Colorado Springs,Northwest,Thursday,11am-2pm,Drink,"Happy hour (submitted by venue)",0,0,0,0,0,0,0,0,https://www.wackadoobrewing.com/
+Overtime Sports Bar and Grill,Colorado Springs,Powers,Monday,3pm-6:30pm,Drink,"$3.50 wells, $3.75 domestic pints, $4.75 craft pints, $3.50 wine, $5 Redbull vodka, .75 off bottles",0,0,1,1,1,0,0,0,https://www.otsports.bar/
+Overtime Sports Bar and Grill,Colorado Springs,Powers,Tuesday,3pm-6:30pm,Drink,"$3.50 wells, $3.75 domestic pints, $4.75 craft pints, $3.50 wine, $5 Redbull vodka, .75 off bottles",0,0,1,1,1,0,0,0,https://www.otsports.bar/
+Overtime Sports Bar and Grill,Colorado Springs,Powers,Wednesday,3pm-6:30pm,Drink,"$3.50 wells, $3.75 domestic pints, $4.75 craft pints, $3.50 wine, $5 Redbull vodka, .75 off bottles",0,0,1,1,1,0,0,0,https://www.otsports.bar/
+Overtime Sports Bar and Grill,Colorado Springs,Powers,Thursday,3pm-6:30pm,Drink,"$3.50 wells, $3.75 domestic pints, $4.75 craft pints, $3.50 wine, $5 Redbull vodka, .75 off bottles",0,0,1,1,1,0,0,0,https://www.otsports.bar/
+Overtime Sports Bar and Grill,Colorado Springs,Powers,Friday,3pm-6:30pm,Drink,"$3.50 wells, $3.75 domestic pints, $4.75 craft pints, $3.50 wine, $5 Redbull vodka, .75 off bottles",0,0,1,1,1,0,0,0,https://www.otsports.bar/
+Overtime Sports Bar and Grill,Colorado Springs,Powers,Saturday,3pm-6:30pm,Drink,"$3.50 wells, $3.75 domestic pints, $4.75 craft pints, $3.50 wine, $5 Redbull vodka, .75 off bottles",0,0,1,1,1,0,0,0,https://www.otsports.bar/
+The Brit Pub,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$4 wells, $5 16oz pints, $2 off wine",0,0,1,1,1,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Monday,3pm-6pm,Food,"$2 off appetizers",0,0,0,0,0,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$4 wells, $5 16oz pints, $2 off wine",0,0,1,1,1,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Tuesday,3pm-6pm,Food,"$2 off appetizers",0,0,0,0,0,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$4 wells, $5 16oz pints, $2 off wine",0,0,1,1,1,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Wednesday,3pm-6pm,Food,"$2 off appetizers",0,0,0,0,0,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"$4 wells, $5 16oz pints, $2 off wine",0,0,1,1,1,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Thursday,3pm-6pm,Food,"$2 off appetizers",0,0,0,0,0,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$4 wells, $5 16oz pints, $2 off wine",0,0,1,1,1,0,0,0,https://greatbritish.net/
+The Brit Pub,Colorado Springs,Downtown,Friday,3pm-6pm,Food,"$2 off appetizers",0,0,0,0,0,0,0,0,https://greatbritish.net/
+Shame & Regret,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$4 house wine, well liquor, and draft beer",0,0,1,1,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"$8 house old fashioned, palomas, and gimlets",0,0,0,0,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$4 house wine, well liquor, and draft beer",0,0,1,1,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"$8 house old fashioned, palomas, and gimlets",0,0,0,0,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$4 house wine, well liquor, and draft beer",0,0,1,1,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"$8 house old fashioned, palomas, and gimlets",0,0,0,0,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$4 house wine, well liquor, and draft beer",0,0,1,1,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"$8 house old fashioned, palomas, and gimlets",0,0,0,0,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$4 house wine, well liquor, and draft beer",0,0,1,1,1,0,0,0,https://www.shameandregret.com/
+Shame & Regret,Colorado Springs,Downtown,Friday,4pm-6pm,Drink,"$8 house old fashioned, palomas, and gimlets",0,0,0,0,1,0,0,0,https://www.shameandregret.com/
