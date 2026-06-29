@@ -367,15 +367,70 @@ STIR Coffee & Cocktails,Colorado Springs,Old North End,Saturday,4pm-6pm,Drink,"$
 STIR Coffee & Cocktails,Colorado Springs,Old North End,Sunday,4pm-6pm,Drink,"$5 wells, $5 wines",0,0,1,1,1,0,0,0,https://stircoffeeshop.com/
 STIR Coffee & Cocktails,Colorado Springs,Old North End,Sunday,4pm-6pm,Drink,"$1 off Colorado beers",0,0,1,0,0,0,0,0,https://stircoffeeshop.com/
 STIR Coffee & Cocktails,Colorado Springs,Old North End,Sunday,4pm-6pm,Drink,"$10 Espresso Patronum espresso martini",0,0,0,0,1,0,0,0,https://stircoffeeshop.com/
-Zocalo,Colorado Springs,Downtown,Monday,3pm-5pm,Drink,"$5 drafts, $8 Classico margarita on the rocks",0,0,1,0,0,1,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Monday,3pm-5pm,Food,"$3.50 street tacos, $3.50 chips and salsa",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Tuesday,3pm-5pm,Drink,"$5 drafts, $8 Classico margarita on the rocks, margarita specials all day",0,0,1,0,0,1,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Tuesday,3pm-5pm,Food,"$3.50 street tacos, $3.50 chips and salsa",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Wednesday,3pm-5pm,Drink,"$5 drafts, $8 Classico margarita on the rocks",0,0,1,0,0,1,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Wednesday,3pm-5pm,Food,"$3.50 street tacos, $3.50 chips and salsa",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Thursday,3pm-5pm,Drink,"$5 drafts, $8 Classico margarita on the rocks, margarita specials all day",0,0,1,0,0,1,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Thursday,3pm-5pm,Food,"$3.50 street tacos, $3.50 chips and salsa",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Friday,3pm-5pm,Drink,"$5 drafts, $8 Classico margarita on the rocks",0,0,1,0,0,1,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Friday,3pm-5pm,Food,"$3.50 street tacos, $3.50 chips and salsa",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Saturday,3pm-5pm,Drink,"$5 drafts, $8 Classico margarita on the rocks",0,0,1,0,0,1,0,0,https://zocalocolorado.com/
-Zocalo,Colorado Springs,Downtown,Saturday,3pm-5pm,Food,"$3.50 street tacos, $3.50 chips and salsa",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"Margarita Monday: $6 casa and fruit margaritas",0,0,0,0,0,1,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$4 drafts, $7 house red or white wine",0,0,1,1,0,0,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Monday,3pm-6pm,Food,"$3 chips and salsa, $3 select tacos",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$4 drafts, $7 house red or white wine, $6 house and fruit margaritas",0,1,1,1,0,1,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Tuesday,3pm-6pm,Food,"Taco Tuesday: $3 select tacos, $3 chips and salsa",0,1,0,0,0,0,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$4 drafts, $7 house red or white wine, $6 house and fruit margaritas",0,0,1,1,0,1,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Wednesday,3pm-6pm,Food,"$3 chips and salsa, $3 select tacos",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"Thirsty Thursday: $6 casa and fruit margaritas, $4 drafts, $3 mocktails",0,0,1,0,0,1,1,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Thursday,3pm-6pm,Food,"$3 chips and salsa, $3 select tacos",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$4 drafts, $7 house red or white wine, $6 house and fruit margaritas",0,0,1,1,0,1,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Friday,3pm-6pm,Food,"$3 chips and salsa, $3 select tacos, $5 mini queso, $7 mini guacamole",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Saturday,3pm-6pm,Drink,"$4 drafts, $7 house red or white wine, $6 house and fruit margaritas",0,0,1,1,0,1,0,0,https://zocalocolorado.com/
+Zocalo,Colorado Springs,Downtown,Saturday,3pm-6pm,Food,"$3 chips and salsa, $3 select tacos, $5 mini queso, $7 mini guacamole",0,0,0,0,0,0,0,0,https://zocalocolorado.com/
+Cowboy Star,Colorado Springs,,Monday,4pm-6pm,Drink,"$6 select beers, $7 well drinks, $8 hand-selected wine, $9 specialty cocktails",0,0,1,1,1,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Monday,4pm-6pm,Food,"Discounted bar bites in the $5-$7 range",0,0,0,0,0,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Tuesday,4pm-6pm,Drink,"$6 select beers, $7 well drinks, $8 hand-selected wine, $9 specialty cocktails",0,0,1,1,1,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Tuesday,4pm-6pm,Food,"Discounted bar bites in the $5-$7 range",0,0,0,0,0,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Wednesday,4pm-6pm,Drink,"$6 select beers, $7 well drinks, $8 hand-selected wine, $9 specialty cocktails",0,0,1,1,1,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Wednesday,4pm-6pm,Food,"Discounted bar bites in the $5-$7 range",0,0,0,0,0,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Thursday,4pm-6pm,Drink,"$6 select beers, $7 well drinks, $8 hand-selected wine, $9 specialty cocktails",0,0,1,1,1,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Thursday,4pm-6pm,Food,"Discounted bar bites in the $5-$7 range",0,0,0,0,0,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Friday,4pm-6pm,Drink,"$6 select beers, $7 well drinks, $8 hand-selected wine, $9 specialty cocktails",0,0,1,1,1,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Friday,4pm-6pm,Food,"Discounted bar bites in the $5-$7 range",0,0,0,0,0,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Saturday,4pm-6pm,Drink,"$6 select beers, $7 well drinks, $8 hand-selected wine, $9 specialty cocktails",0,0,1,1,1,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Saturday,4pm-6pm,Food,"Discounted bar bites in the $5-$7 range",0,0,0,0,0,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Sunday,4pm-6pm,Drink,"$6 select beers, $7 well drinks, $8 hand-selected wine, $9 specialty cocktails",0,0,1,1,1,0,0,0,https://www.cowboystarcs.com/
+Cowboy Star,Colorado Springs,,Sunday,4pm-6pm,Food,"Discounted bar bites in the $5-$7 range",0,0,0,0,0,0,0,0,https://www.cowboystarcs.com/
+Burrowing Owl,Colorado Springs,,Monday,9pm-close,Food,"$4 late night nacho bar",1,0,1,0,0,0,0,0,https://burrowingowllounge.com/
+Burrowing Owl,Colorado Springs,,Tuesday,9pm-close,Food,"$4 late night nacho bar",1,0,1,0,0,0,0,0,https://burrowingowllounge.com/
+Burrowing Owl,Colorado Springs,,Wednesday,9pm-close,Food,"$4 late night nacho bar",1,0,1,0,0,0,0,0,https://burrowingowllounge.com/
+Burrowing Owl,Colorado Springs,,Thursday,9pm-close,Food,"$4 late night nacho bar",1,0,1,0,0,0,0,0,https://burrowingowllounge.com/
+Burrowing Owl,Colorado Springs,,Friday,9pm-close,Food,"$4 late night nacho bar",1,0,1,0,0,0,0,0,https://burrowingowllounge.com/
+Burrowing Owl,Colorado Springs,,Saturday,9pm-close,Food,"$4 late night nacho bar",1,0,1,0,0,0,0,0,https://burrowingowllounge.com/
+Burrowing Owl,Colorado Springs,,Sunday,9pm-close,Food,"$4 late night nacho bar",1,0,1,0,0,0,0,0,https://burrowingowllounge.com/
+Jax Fish House and Oyster Bar,Colorado Springs,Downtown,Monday,3pm-close,Drink,"All night happy hour: $2 oysters, $7 select cocktails, $1 off beers",1,0,1,0,1,0,1,0,https://www.jaxfishhouse.com/
+Jax Fish House and Oyster Bar,Colorado Springs,Downtown,Tuesday,3pm-5pm,Drink,"Daily happy hour drink and oyster specials",0,0,1,0,1,0,0,0,https://www.jaxfishhouse.com/
+Jax Fish House and Oyster Bar,Colorado Springs,Downtown,Wednesday,3pm-5pm,Drink,"Daily happy hour drink and oyster specials",0,0,1,0,1,0,0,0,https://www.jaxfishhouse.com/
+Jax Fish House and Oyster Bar,Colorado Springs,Downtown,Thursday,3pm-5pm,Drink,"Daily happy hour drink and oyster specials",0,0,1,0,1,0,0,0,https://www.jaxfishhouse.com/
+Jax Fish House and Oyster Bar,Colorado Springs,Downtown,Friday,3pm-5pm,Drink,"Daily happy hour drink and oyster specials",0,0,1,0,1,0,0,0,https://www.jaxfishhouse.com/
+Jax Fish House and Oyster Bar,Colorado Springs,Downtown,Saturday,3pm-5pm,Drink,"Daily happy hour drink and oyster specials",0,0,1,0,1,0,0,0,https://www.jaxfishhouse.com/
+Jax Fish House and Oyster Bar,Colorado Springs,Downtown,Sunday,3pm-5pm,Drink,"Daily happy hour drink and oyster specials",0,0,1,0,1,0,0,0,https://www.jaxfishhouse.com/
+Red Gravy,Colorado Springs,Downtown,Monday,4pm-6pm,Drink,"Half off a glass of wine, draft beer, or well drink",0,0,1,1,1,0,0,0,https://redgravyco.com/
+Red Gravy,Colorado Springs,Downtown,Monday,4pm-6pm,Food,"Select appetizers",0,0,0,0,0,0,0,0,https://redgravyco.com/
+Red Gravy,Colorado Springs,Downtown,Tuesday,4pm-6pm,Drink,"Half off a glass of wine, draft beer, or well drink",0,0,1,1,1,0,0,0,https://redgravyco.com/
+Red Gravy,Colorado Springs,Downtown,Tuesday,4pm-6pm,Food,"Select appetizers",0,0,0,0,0,0,0,0,https://redgravyco.com/
+Red Gravy,Colorado Springs,Downtown,Wednesday,4pm-6pm,Drink,"Half off a glass of wine, draft beer, or well drink",0,0,1,1,1,0,0,0,https://redgravyco.com/
+Red Gravy,Colorado Springs,Downtown,Wednesday,4pm-6pm,Food,"Select appetizers",0,0,0,0,0,0,0,0,https://redgravyco.com/
+Red Gravy,Colorado Springs,Downtown,Thursday,4pm-6pm,Drink,"Half off a glass of wine, draft beer, or well drink",0,0,1,1,1,0,0,0,https://redgravyco.com/
+Red Gravy,Colorado Springs,Downtown,Thursday,4pm-6pm,Food,"Select appetizers",0,0,0,0,0,0,0,0,https://redgravyco.com/
+Shuga's,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$3 wine, well drinks, and draft beer, $1 off beer bottles",0,0,1,1,1,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Monday,3pm-6pm,Food,"$4 happy hour appetizers",0,0,0,0,0,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$3 wine, well drinks, and draft beer, $1 off beer bottles",0,0,1,1,1,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Tuesday,3pm-6pm,Food,"$4 happy hour appetizers",0,0,0,0,0,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$3 wine, well drinks, and draft beer, $1 off beer bottles",0,0,1,1,1,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Wednesday,3pm-6pm,Food,"$4 happy hour appetizers",0,0,0,0,0,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"$3 wine, well drinks, and draft beer, $1 off beer bottles",0,0,1,1,1,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Thursday,3pm-6pm,Food,"$4 happy hour appetizers",0,0,0,0,0,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$3 wine, well drinks, and draft beer, $1 off beer bottles",0,0,1,1,1,0,0,0,https://www.shugas.com/
+Shuga's,Colorado Springs,Downtown,Friday,3pm-6pm,Food,"$4 happy hour appetizers",0,0,0,0,0,0,0,0,https://www.shugas.com/
+My Neighbor Felix,Colorado Springs,Briargate,Monday,3pm-6pm,Drink,"$3 signature margaritas plus $5 and $7 cocktail menu",0,0,0,0,1,1,0,0,https://www.myneighborfelix.com/location-colorado-springs
+My Neighbor Felix,Colorado Springs,Briargate,Monday,3pm-6pm,Food,"$3, $5, and $7 happy hour bites",0,0,0,0,0,0,0,0,https://www.myneighborfelix.com/location-colorado-springs
+My Neighbor Felix,Colorado Springs,Briargate,Wednesday,3pm-6pm,Drink,"$3 signature margaritas plus $5 and $7 cocktail menu",0,0,0,0,1,1,0,0,https://www.myneighborfelix.com/location-colorado-springs
+My Neighbor Felix,Colorado Springs,Briargate,Wednesday,3pm-6pm,Food,"$3, $5, and $7 happy hour bites",0,0,0,0,0,0,0,0,https://www.myneighborfelix.com/location-colorado-springs
+My Neighbor Felix,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$3 signature margaritas plus $5 and $7 cocktail menu",0,0,0,0,1,1,0,0,https://www.myneighborfelix.com/location-colorado-springs
+My Neighbor Felix,Colorado Springs,Briargate,Thursday,3pm-6pm,Food,"$3, $5, and $7 happy hour bites",0,0,0,0,0,0,0,0,https://www.myneighborfelix.com/location-colorado-springs
+My Neighbor Felix,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$3 signature margaritas plus $5 and $7 cocktail menu",0,0,0,0,1,1,0,0,https://www.myneighborfelix.com/location-colorado-springs
+My Neighbor Felix,Colorado Springs,Briargate,Friday,3pm-6pm,Food,"$3, $5, and $7 happy hour bites",0,0,0,0,0,0,0,0,https://www.myneighborfelix.com/location-colorado-springs
