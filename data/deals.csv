@@ -288,6 +288,7 @@ Marigold Bistro,Colorado Springs,,Tuesday,4pm-6pm,Drink,"$10 bites and drink spe
 Marigold Bistro,Colorado Springs,,Wednesday,4pm-6pm,Drink,"$10 bites and drink specials, bar area only",0,0,0,0,0,0,0,0,https://marigoldbistrocos.com/
 Marigold Bistro,Colorado Springs,,Thursday,4pm-6pm,Drink,"$10 bites and drink specials, bar area only",0,0,0,0,0,0,0,0,https://marigoldbistrocos.com/
 Mother Muff's Kitchen and Spirits,Colorado Springs,Old Colorado City,Wednesday,9am-2am,Drink,"$4 happy hour: any single drink",0,0,1,1,1,0,1,0,https://www.mothermuffs.com/
+Mother Muff's Kitchen and Spirits,Colorado Springs,Old Colorado City,Sunday,6pm-2am,Drink,"$4 happy hour: any single drink",0,0,1,1,1,0,0,0,https://www.mothermuffs.com/
 O'Furry's,Colorado Springs,,Monday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
 O'Furry's,Colorado Springs,,Tuesday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
 O'Furry's,Colorado Springs,,Wednesday,4pm-7pm,Drink,"Daily drink and food specials",0,0,0,0,0,0,0,0,https://ofurrys.com/
@@ -434,3 +435,32 @@ My Neighbor Felix,Colorado Springs,Briargate,Thursday,3pm-6pm,Drink,"$3 signatur
 My Neighbor Felix,Colorado Springs,Briargate,Thursday,3pm-6pm,Food,"$3, $5, and $7 happy hour bites",0,0,0,0,0,0,0,0,https://www.myneighborfelix.com/location-colorado-springs
 My Neighbor Felix,Colorado Springs,Briargate,Friday,3pm-6pm,Drink,"$3 signature margaritas plus $5 and $7 cocktail menu",0,0,0,0,1,1,0,0,https://www.myneighborfelix.com/location-colorado-springs
 My Neighbor Felix,Colorado Springs,Briargate,Friday,3pm-6pm,Food,"$3, $5, and $7 happy hour bites",0,0,0,0,0,0,0,0,https://www.myneighborfelix.com/location-colorado-springs
+Homa Cafe and Bar,Colorado Springs,Downtown,Monday,3pm-6pm,Drink,"$4 draft beer, $5 house wine, $9 signature cocktail or mocktail",0,0,1,1,1,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Monday,3pm-6pm,Food,"Half price cauliflower pops or fries",0,0,0,0,0,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Tuesday,3pm-6pm,Drink,"$4 draft beer, $5 house wine, $9 signature cocktail or mocktail",0,0,1,1,1,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Tuesday,3pm-6pm,Food,"Half price cauliflower pops or fries",0,0,0,0,0,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Wednesday,3pm-6pm,Drink,"$4 draft beer, $5 house wine, $9 signature cocktail or mocktail",0,0,1,1,1,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Wednesday,3pm-6pm,Food,"Half price cauliflower pops or fries",0,0,0,0,0,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Thursday,3pm-6pm,Drink,"$4 draft beer, $5 house wine, $9 signature cocktail or mocktail",0,0,1,1,1,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Thursday,3pm-6pm,Food,"Half price cauliflower pops or fries",0,0,0,0,0,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Friday,3pm-6pm,Drink,"$4 draft beer, $5 house wine, $9 signature cocktail or mocktail",0,0,1,1,1,0,0,0,https://homa-cafebar.squarespace.com/
+Homa Cafe and Bar,Colorado Springs,Downtown,Friday,3pm-6pm,Food,"Half price cauliflower pops or fries",0,0,0,0,0,0,0,0,https://homa-cafebar.squarespace.com/
+Tapateria,Colorado Springs,Old Colorado City,Monday,4pm-6pm,Drink,"$5 house wines, $5 beers, $3 sangria",0,0,1,1,0,0,0,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Monday,4pm-6pm,Drink,"Margarita Monday: 50% off house margaritas",0,0,0,0,0,1,1,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Tuesday,4pm-6pm,Drink,"$5 house wines, $5 beers, $3 sangria",0,0,1,1,0,0,0,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Tuesday,4pm-6pm,Drink,"Tasting Tuesday: $10 flights of sherry, wine, or port",0,0,0,1,0,0,0,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Wednesday,4pm-6pm,Drink,"$5 house wines, $5 beers, $3 sangria",0,0,1,1,0,0,0,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Wednesday,4pm-6pm,Drink,"Wine Wednesday: 20% off all bottles of wine",0,0,0,1,0,0,0,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Thursday,4pm-6pm,Drink,"$5 house wines, $5 beers, $3 sangria",0,0,1,1,0,0,0,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Friday,4pm-6pm,Drink,"$5 house wines, $5 beers, $3 sangria",0,0,1,1,0,0,0,0,https://www.tapateria.com/
+Tapateria,Colorado Springs,Old Colorado City,Sunday,12pm-9pm,Drink,"Sangria Sunday: $3 glasses, $12 carafes",0,0,0,0,0,0,0,0,https://www.tapateria.com/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Monday,3pm-6pm,Drink,"$3.50 domestic bottles, cans, and drafts; $3.50 house wine and well drinks",0,0,1,1,1,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Monday,3pm-6pm,Food,"Half price select appetizers",0,0,0,0,0,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Tuesday,3pm-6pm,Drink,"$3.50 domestic bottles, cans, and drafts; $3.50 house wine and well drinks",0,0,1,1,1,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Tuesday,3pm-6pm,Food,"Half price select appetizers",0,0,0,0,0,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Wednesday,3pm-6pm,Drink,"$3.50 domestic bottles, cans, and drafts; $3.50 house wine and well drinks",0,0,1,1,1,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Wednesday,3pm-6pm,Food,"Half price select appetizers",0,0,0,0,0,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Thursday,3pm-6pm,Drink,"$3.50 domestic bottles, cans, and drafts; $3.50 house wine and well drinks",0,0,1,1,1,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Thursday,3pm-6pm,Food,"Half price select appetizers",0,0,0,0,0,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Friday,3pm-6pm,Drink,"$3.50 domestic bottles, cans, and drafts; $3.50 house wine and well drinks",0,0,1,1,1,0,0,0,https://hatchcover.biz/
+Hatch Cover Bar and Grill,Colorado Springs,Broadmoor,Friday,3pm-6pm,Food,"Half price select appetizers",0,0,0,0,0,0,0,0,https://hatchcover.biz/
