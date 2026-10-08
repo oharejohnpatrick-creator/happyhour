@@ -27,18 +27,18 @@
 <meta name="apple-mobile-web-app-title" content="PeakHour">
 
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://example.com/">
+<meta property="og:url" content="https://cos.myhappyhour.bar/">
 <meta property="og:title" content="Peak Hour — Colorado Springs Happy Hours">
 <meta property="og:description" content="Every happy hour in Colorado Springs — food specials, drink deals, and late night offers, from Manitou Springs to Briargate">
-<meta property="og:image" content="https://example.com/images/og-image.jpg">
+<meta property="og:image" content="https://cos.myhappyhour.bar/apple-touch-icon.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://example.com/">
+<meta name="twitter:url" content="https://cos.myhappyhour.bar/">
 <meta name="twitter:title" content="Peak Hour — Colorado Springs Happy Hours">
 <meta name="twitter:description" content="Every happy hour in Colorado Springs — food specials, drink deals, and late night offers, from Manitou Springs to Briargate">
-<meta name="twitter:image" content="https://example.com/images/og-image.jpg">
+<meta name="twitter:image" content="https://cos.myhappyhour.bar/apple-touch-icon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -745,7 +745,7 @@ const SVG = {
 const coffeeHTML = `<article class="card promo coffee">
   <h3>Buy us a round?</h3>
   <p>We're not bartenders, but we'll take a tip for finding you the good stuff.</p>
-  <a class="promo-cta" href="https://buymeacoffee.com/myhappyhour" target="_blank" rel="noopener noreferrer">Buy us a coffee →</a>
+  <a class="promo-cta" data-track="donate_click" href="https://buymeacoffee.com/myhappyhour" target="_blank" rel="noopener noreferrer">Buy us a coffee →</a>
 </article>`;
 
 function dealHTML(d, topWindow) {
@@ -801,8 +801,8 @@ function cardHTML(group, idx) {
     <div class="card-body">
       ${group.deals.map(d => dealHTML(d, st.window)).join('')}
       <div class="card-actions">
-        ${menuDeal ? `<a class="btn-ghost" href="${esc(menuDeal.url)}" target="_blank" rel="noopener noreferrer">${SVG.menu} Menu</a>` : ''}
-        <a class="btn-ghost" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" target="_blank" rel="noopener noreferrer">${SVG.pin} Directions</a>
+        ${menuDeal ? `<a class="btn-ghost" data-track="menu_click" data-venue="${esc(group.venue)}" href="${esc(menuDeal.url)}" target="_blank" rel="noopener noreferrer">${SVG.menu} Menu</a>` : ''}
+        <a class="btn-ghost" data-track="directions_click" data-venue="${esc(group.venue)}" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" target="_blank" rel="noopener noreferrer">${SVG.pin} Directions</a>
       </div>
     </div>
   </article>`;
@@ -1029,7 +1029,12 @@ function closeSubmit() {
   submitModal.hidden = true;
   document.body.style.overflow = '';
 }
-document.getElementById('submitBtn').addEventListener('click', openSubmit);
+function track(name, params) { try { if (typeof gtag === 'function') gtag('event', name, params || {}); } catch (_) {} }
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('[data-track]');
+  if (el) track(el.dataset.track, el.dataset.venue ? { venue: el.dataset.venue } : {});
+});
+document.getElementById('submitBtn').addEventListener('click', () => { track('submit_form_open'); openSubmit(); });
 document.getElementById('submitClose').addEventListener('click', closeSubmit);
 document.getElementById('submitDone').addEventListener('click', closeSubmit);
 submitModal.addEventListener('click', (e) => { if (e.target === submitModal) closeSubmit(); });
@@ -1049,6 +1054,7 @@ submitForm.addEventListener('submit', async (e) => {
     if (!res.ok) throw new Error('Request failed');
     submitFormWrap.hidden = true;
     submitSuccess.hidden = false;
+    track('submit_tip_sent');
   } catch (_) {
     submitError.hidden = false;
     submitSend.disabled = false;
